@@ -8,20 +8,20 @@ const HeroSliderFour = () => {
     {
       id: 1,
       bg: 'assets/img/slider/bghome1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE FEATURES',
-      subtitle: <>Business <span>Growth</span></>
+      title: 'Elevate Your Online Presence with Stunning Web Design',
+      subtitle: <>Web<span> Design</span></>
     },
     {
       id: 2,
       bg: 'assets/img/slider/bghome1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE METARIALS',
-      subtitle: <>Business <span>Health</span></>
+      title: 'Transform Your Ideas into Reality with Expert Software Development',
+      subtitle: <>Software <span>Development</span></>
     },
     {
       id: 3,
       bg: 'assets/img/slider/slider-2-1.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE SUPPORT',
-      subtitle: <>Business <span>Strong</span></>
+      title: "Boost Your Brand's Visibility and ROI through Strategic Digital Marketing",
+      subtitle: <>Digital <span>Marketing</span></>
     },
   ]
   return (
