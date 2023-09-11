@@ -42,8 +42,8 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/">
                              <a>Home</a>
                           </Link>
-                          <ul className="submenu">
-                            <li><Link href="/">Home Designer</Link></li>
+                          {/* <ul className="submenu">
+                            <li><Link href="/">Home</Link></li>
                             <li><Link href="/home-two">Home Agency</Link></li>
                             <li><Link href="/home-three">Home Freelancer</Link></li>
                             <li><Link href="/home-four">Home Corporate</Link></li>
@@ -56,27 +56,28 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                             <li><Link href="/home-eleven">Home Photographer 3</Link></li>
                             <li><Link href="/home-twelve">Home Photographer 4</Link></li>
                             <li><Link href="/home-thirteen">Home Politician</Link></li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li>
                           <Link href="/about">About</Link>
                         </li>
                         <li className="has-dropdown megamenu-full">
-                          <a href="#">Pages</a>
+                          <a href="#">Services</a>
                           <ul className="megamenu">
                             <li>
-                              <a href="#" className="megamenu-title">Page Layout 1</a>
+                              <a href="#" className="megamenu-title">Our Services</a>
 
                               <ul>
-                                <li><Link href="/about">About</Link></li>
-                                <li><Link href="/about-me">About Me</Link></li>
+                                <li>Leveraging cutting-edge technologies to build industry-leading digital products</li>
+                                
+                                {/* <li><Link href="/about-me">About Me</Link></li>
                                 <li><Link href="/contact">Contact</Link></li>
                                 <li><Link href="/faq">FAQ</Link></li>
                                 <li><Link href="/help-center">Help Center</Link></li>
                                 <li><Link href="/error-page">Error 404</Link></li>
                                 <li><Link href="/pricing-plan">Pricing Plan</Link></li>
                                 <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                                <li><Link href="/coming-soon">Coming Soon</Link></li>
+                                <li><Link href="/coming-soon">Coming Soon</Link></li> */}
                               </ul>
                             </li>
                             <li>

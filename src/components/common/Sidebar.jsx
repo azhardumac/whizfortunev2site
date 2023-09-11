@@ -68,7 +68,7 @@ const Sidebar = ({ headerMenu }) => {
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
               <a href="index.html">
-                <img src="/assets/img/logo/logo.png" alt="logo" />
+                <img src="/assets/img/logo/whizlogo2.png" alt="logo" />
               </a>
             </div>
             <div className="sidebar__search mb-25">
@@ -86,7 +86,7 @@ const Sidebar = ({ headerMenu }) => {
                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                     <ul onClick={() => setShowSidebar(false)}
                       className="sidebar_sub_menu submenu text-black" >
-                      <li><Link href="/">Home Designer</Link></li>
+                      {/* <li><Link href="/">Home</Link></li>
                       <li><Link href="/home-two">Home Agency</Link></li>
                       <li><Link href="/home-three">Home Freelancer</Link></li>
                       <li><Link href="/home-four">Home Corporate</Link></li>
@@ -98,7 +98,7 @@ const Sidebar = ({ headerMenu }) => {
                       <li><Link href="/home-ten">Home Photographer 2</Link></li>
                       <li><Link href="/home-eleven">Home Photographer 3</Link></li>
                       <li><Link href="/home-twelve">Home Photographer 4</Link></li>
-                      <li><Link href="/home-thirteen">Home Politician</Link></li>
+                      <li><Link href="/home-thirteen">Home Politician</Link></li> */}
                     </ul>
                   </Collapsible>
 
@@ -106,7 +106,7 @@ const Sidebar = ({ headerMenu }) => {
                     <li><Link href="/about"><a>About</a></Link></li>
                   </div>
 
-                  <Collapsible trigger={<a>Pages</a>} triggerTagName="div" triggerOpenedClassName="icon_close"
+                  <Collapsible trigger={<a>Services</a>} triggerTagName="div" triggerOpenedClassName="icon_close"
                     triggerClassName="iconAdd" open={false}>
 
                     <div className="ms-3">
@@ -235,7 +235,7 @@ const Sidebar = ({ headerMenu }) => {
                     <i className="fal fa-map-marker-alt"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">12/A, Mirnada City Tower, NYC</a>
+                    <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/fyQKHmzNVAqmYAR19">Konark Business Hub, Pune, India</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center">
@@ -243,7 +243,7 @@ const Sidebar = ({ headerMenu }) => {
                     <i className="far fa-phone"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    <a href="tel:+012-345-6789">+8801 094 0637</a>
+                    <a href="tel:+08956786421">+91 8956786421</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center">
@@ -251,7 +251,7 @@ const Sidebar = ({ headerMenu }) => {
                     <i className="fal fa-envelope"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    <a href="/cdn-cgi/l/email-protection#added8ddddc2dfd9edcac0ccc4c183cec2c0"><span className="mailto:nerox@gmail.com" data-cfemail="0b787e7b7b64797f4b666a626725686466">nerox@gmail.com</span></a>
+                    <a href="/cdn-cgi/l/email-protection#added8ddddc2dfd9edcac0ccc4c183cec2c0"><span className="mailto:info@whizfortune.com" data-cfemail="0b787e7b7b64797f4b666a626725686466">info@whizfortune.com</span></a>
                   </div>
                 </li>
               </ul>

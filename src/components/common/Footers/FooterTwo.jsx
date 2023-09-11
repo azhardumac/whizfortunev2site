@@ -10,11 +10,12 @@ const FooterTwo = () => {
               <div className="col-xl-6 col-lg-4 col-md-6">
                 <div className="footer__widget">
                   <h5 className="footer-sm-title mb-20">FEEL FREE TO CONTACT US</h5>
-                  <h5 className="footer-sp-title mb-15"><i className="fa-solid fa-comment"></i> <a href="tel:+61383766284">+61 383 766 284</a></h5>
-                  <span className="footer-sp-contact"><a href="mailto:nerox@gmail.com">nerox@gmail.com</a></span>
+                  <h5 className="footer-sp-title mb-15"><i className="fa-solid fa-comment"></i> <a href="tel:+08956786421">+91-8956786421</a></h5>
+                  <span className="footer-sp-contact"><a href="mailto:info@whizfortune.com">info@whizfortune.com</a></span>
                   <div className="footer-xs-wrapper mt-60 mb-30">
-                    <h5 className="footer-xs-title">Career</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt.</p>
+                    {/* <h5 className="footer-xs-title">Career</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt.</p> */}
+                    <img src='assets/img/logo/whizlogo2.png'></img>
                   </div>
                 </div>
               </div>
@@ -62,7 +63,7 @@ const FooterTwo = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-7">
-                <p>© 2022 Nerox - Agency & Portfolio Design . All Rights Reserved.</p>
+                <p>© 2023 Whizfortune. All Rights Reserved.</p>
               </div>
               <div className="col-xl-6 col-lg-5">
                 <div className="copyright-links">
