@@ -149,11 +149,11 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   !headerEight && <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                     <div className="tp-header-action">
                       <ul>
-                        <li className="d-none d-sm-inline-block">
+                        {/* <li className="d-none d-sm-inline-block">
                           <button onClick={() => setSearchOpen(true)} href="#" className="search">
                             <i className="fas fa-search"></i>
                           </button>
-                        </li>
+                        </li> */}
                         <li >
                           <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
                             <i className="fas fa-bars"></i>
@@ -213,7 +213,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
 
 
       {/* <!-- modal-search-start --> */}
-      {
+      {/* {
         searchOpen && <div className="modal search-modal" id="search-modal">
           <button onClick={() => setSearchOpen(false)} type="button" className="close">
             <span aria-hidden="true">×</span>
@@ -229,7 +229,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
             </div>
           </div>
         </div>
-      }
+      } */}
 
       {/* <!-- modal-search-end --> */}
 
