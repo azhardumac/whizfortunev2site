@@ -19,7 +19,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
           ${headerSticky && "header-sticky"} ${homeNine && 'header-transparent border-0'}`} id="header-sticky">
             <div className={`${HeaderTwo ? 'container-fluid' : 'container'} p-relative`}>
               <div className="row align-items-center">
-                <div className="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
+                <div className="col-xxxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
                   <div className="logo">
                     <Link href="/">
                      <a>
@@ -34,7 +34,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                     </Link>
                   </div>
                 </div>
-                <div className="col-xxl-6 col-xl-7 col-lg-7 d-none d-lg-block">
+                <div className="col-xxxl-6 col-xl-7 col-lg-7 d-none d-lg-block">
                   <div className="tpmenu">
                     <nav id="mobile-menu">
                       <ul>
