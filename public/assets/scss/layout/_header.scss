@@ -9,12 +9,15 @@
 
 .logo{
     & img{
-        width: 150px;
+        max-width: 150px;
+        width: 100%;
     }
 }
 
 .logo-white{
     display: none;
+    max-width: 150px;
+    width: 100%;
 }
 
 .tp-model-logo{

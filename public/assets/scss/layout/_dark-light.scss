@@ -107,10 +107,14 @@
 
     // header css
     .logo-white{
-        display: block;
+        display: none;
+        max-width: 150px;
+        width: 100%;
     }
     .logo-dark{
         display: none;
+        max-width: 150px;
+        width: 100%;
     }
     .tp-header-area {
         & .tpmenu ul li a {

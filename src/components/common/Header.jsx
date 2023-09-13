@@ -20,17 +20,17 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
             <div className={`${HeaderTwo ? 'container-fluid' : 'container'} p-relative`}>
               <div className="row align-items-center">
                 <div className="col-xxl-3 col-xl-2 col-lg-2 col-md-6 col-6">
-                  <div className="logo-dark">
+                  <div className="logo">
                     <Link href="/">
                      <a>
-                     { homeNine ? <img src="/assets/img/logo/whizlogo2.png" alt="logo" />
-                      : <img src="/assets/img/logo/whizlogo2.png" alt="logo"/>}
+                     { homeNine ? <img src="/assets/img/logo/whizlogo.png" alt="logo"/>
+                      : <img src="/assets/img/logo/whizlogo.png" alt="logo"/>}
                      </a>
                     </Link>
                   </div>
                   <div className="logo-white">
                      <Link href="/">
-                      <a><img src="/assets/img/logo/whizlogo2.png" alt="logo" /></a>
+                      <a><img src="/assets/img/logo/whizlogo.png" alt="logo" /></a>
                     </Link>
                   </div>
                 </div>
