@@ -205,7 +205,7 @@ const Sidebar = ({ headerMenu }) => {
             </div>
 
             <div className={`sidebar__text ${headerMenu ? 'd-none' : 'd-none d-lg-block'}`}>
-              <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and will give you a complete account of the system and expound the actual teachings of the great explore</p>
+              <p>Test Text SideBar Menu </p>
             </div>
             <div className={`sidebar__img ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-20`}>
               <div className="row gx-2">
