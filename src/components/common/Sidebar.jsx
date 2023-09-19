@@ -67,7 +67,7 @@ const Sidebar = ({ headerMenu }) => {
           </div>
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
-              <a href="/">
+              <a href="index.html">
                 <img src="/assets/img/logo/whizlogo2.png" alt="logo" />
               </a>
             </div>
