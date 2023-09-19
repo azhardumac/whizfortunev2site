@@ -386,3 +386,108 @@ input[type="color"] {
 		max-width: 1590px;
 	}
 }
+////////////////////////////////////////////////
+//az
+.center-text-heading{
+	text-align: center;
+}
+
+/* CSS for larger screens */
+.why-choose-us-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  /* CSS for smaller screens (e.g., phones) */
+  @media (max-width: 767px) {
+	.why-choose-us-grid {
+	  grid-template-columns: 1fr;
+	}
+  }
+  /* CSS for the hover effect */
+.why-choose-us-grid .grid-item {
+	background-color: #fff; /* Initial background color */
+	transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  .why-choose-us-grid .grid-item:hover {
+	background-color: #bde7ff; /* New background color on hover */
+	cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
+  /* CSS for grid items */
+  .grid-item {
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+  }
+
+
+  .icon-large {
+	font-size: 54px; /* Adjust the font size as needed */
+  }
+
+
+  /* styles.css or your component's style block */
+.packages-container {
+	display: flex; /* Display items in a row */
+	justify-content: space-between; /* Add space between items */
+	flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
+  }
+  
+  .package-item {
+	width: calc(33.33% - 20px); /* Adjust the width as needed, considering margin */
+	margin: 10px; /* Add margin for spacing between items */
+	border: 1px solid #ccc; /* Add borders to create boxes */
+	padding: 20px; /* Add padding for spacing within boxes */
+	text-align: center; /* Center the content horizontally */
+  }
+
+  
+
+  /* Customize the slider container */
+.custom-slider {
+	position: relative;
+	margin: 0 auto;
+	width: 90%; /* Adjust the width as needed */
+  }
+  
+  /* Style the individual slides */
+  .slick-slide {
+	padding: 10px; /* Add padding for spacing */
+  }
+  
+  /* Customize the dots (pagination) */
+  .slick-dots {
+	position: absolute;
+	bottom: 20px; /* Adjust the distance from the bottom */
+	list-style: none;
+	text-align: center;
+  }
+  
+  .slick-dots li {
+	display: inline-block;
+	margin: 0 5px; /* Adjust the spacing between dots */
+  }
+  
+  /* Customize dot appearance */
+  .slick-dots li button {
+	width: 10px; /* Adjust the dot size */
+	height: 10px;
+	background-color: #333; /* Change the dot color */
+	border-radius: 50%;
+	border: none;
+  }
+  
+  /* Style the active dot */
+  .slick-dots li.slick-active button {
+	background-color: var(--tp-theme-1); /* Change the active dot color */
+  }
+  
+  /* Set a fixed height for each slide */
+  .slick-slide {
+	height: 400px; /* Adjust the height as needed */
+  }
+  

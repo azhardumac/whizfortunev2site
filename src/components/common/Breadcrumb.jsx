@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Breadcrumb = ({title,subtitle}) => {
   return (
     <>
-      <section className="breadcrumb__area include-bg pt-140 pb-140 breadcrumb__overlay" 
+      <section className="breadcrumb__area include-bg pt-40 pb-40 breadcrumb__overlay" 
       style={{backgroundImage:'url(/assets/img/breadcrumb/breadcrumb-bg-1.jpg)', backgroundSize:'cover',backgroundPosition:'center',backgroundRepeat:'no-repeat'}}>
         <div className="container">
           <div className="row">

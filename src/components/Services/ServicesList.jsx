@@ -8,7 +8,7 @@ const ServicesList = () => {
         <div className="container">
           <div className="row">
             {
-              servicesData.slice(0, 4).map(item => (
+              servicesData.slice(0, 13).map(item => (
                 <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                   <div className="tpservices tpservices-2 text-center mb-30">
                     <div className="tpservices__icon mb-30">

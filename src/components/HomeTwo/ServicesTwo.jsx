@@ -25,12 +25,12 @@ const ServicesTwo = () => {
                       </div>
                       <div className="tpservices__content">
                         <h4 className="tpservices__title mb-25">
-                          <Link href={`/portfolio-details/${item.id}`}>
+                          <Link href={`/service-details/${item.id}`}>
                             <a>{item.title}</a>
                           </Link>
                         </h4>
                         <div className="tpservices__btn mt-30">
-                          <Link href={`/portfolio-details/${item.id}`}>
+                          <Link href={`/service-details/${item.id}`}>
                             <a>
                               <span></span>
                               <span></span>

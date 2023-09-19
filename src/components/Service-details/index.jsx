@@ -10,7 +10,7 @@ const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="SERVICE DETAILS" subtitle="Service Details" />
+      
       <ServiceDetailsArea/>
       <ServiceContact/>
       <BrandArea padd="services-padd" />
