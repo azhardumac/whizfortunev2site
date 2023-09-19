@@ -1,7 +1,7 @@
 const servicesData = [
     {
         id:1,
-        icon:"flaticon-coding",
+        icon:"/assets/img/icon/flexibility.png",
         title:'Cloud Services',
         sections: [
           {
@@ -10,20 +10,22 @@ const servicesData = [
               {
                 title: 'Scalability and Flexibility',
                 content: 'Whether you\'re a startup looking to grow rapidly or an established enterprise seeking to expand, our cloud services are built to scale with your needs. Enjoy the flexibility to increase or decrease resources as your business evolves, ensuring cost-effectiveness and optimal performance at all times.',
-                icon:'flaticon-promote',
+                icon:'/assets/img/icon/flexible.png',
               },
               {
                 title: 'Robust Security Measures',
                 content: 'Security is our top priority. We employ state-of-the-art security protocols and encryption technologies to safeguard your data and applications. Rest assured that your valuable assets are protected from threats, breaches, and vulnerabilities.',
-                icon:'flaticon-promote',
+                icon:'/assets/img/icon/security.png',
               },
               {
                 title:'24/7 Reliability',
                 content:'Downtime is not an option in today\'s digital age. Our cloud services guarantee 99.9% uptime, backed by redundant infrastructure and data centers. Experience uninterrupted operations and exceptional reliability, even during peak traffic.',
+                icon:'/assets/img/icon/guarantee.png',
               },
               {
                 title:'Seamless Migration and Integration',
                 content:'Our team of cloud experts makes transitioning to the cloud seamless. Whether you&oposre migrating from an on-premises infrastructure or another cloud provider, we ensure a smooth transition, preserving data integrity and minimizing disruption.',
+                icon:'/assets/img/icon/integration.png',
               },
             ],
           },
@@ -33,22 +35,27 @@ const servicesData = [
               {
                 title: '1. Infrastructure as a Service (IaaS)                ',
                 content: 'Harness the power of virtualized infrastructure with our IaaS solutions. Customize and manage virtual servers, storage, and networking resources, giving you full control over your cloud environment.                ',
+                icon:'/assets/img/icon/integration.png',
               },
               {
                 title: '2. Platform as a Service (PaaS)                ',
                 content: 'Simplify application development and deployment with our PaaS offerings. Focus on coding while we handle the underlying infrastructure, making development cycles faster and more efficient.                ',
+                icon:'/assets/img/icon/integration.png',
               },
               {
                 title:'3. Software as a Service (SaaS)                ',
                 content:'Access industry-leading software applications without the need for costly installations and maintenance. Our SaaS solutions cover a wide range of business needs, from productivity tools to collaboration software.                ',
+                icon:'/assets/img/icon/integration.png',
               },
               {
                 title:'4. Managed Cloud Services                ',
                 content:'Offload the day-to-day management of your cloud environment to our experts. Benefit from proactive monitoring, maintenance, and optimization to keep your cloud infrastructure in peak condition.                ',
+                icon:'/assets/img/icon/integration.png',
               },
               {
                 title:'5. Disaster Recovery and Backup',
                 content:'Protect your data from unforeseen disasters with our robust backup and disaster recovery services. Ensure business continuity and minimize downtime in the face of unexpected events.                ',
+                icon:'/assets/img/icon/integration.png',
               },
               // ... other subsections for "Packages"
             ],
@@ -68,20 +75,23 @@ const servicesData = [
             sectionTitle: 'Why Choose Whizfortune for Custom Software Development?            ',
             subsections: [
               {
-                title: '1. Bespoke Solutions for Your Unique Needs                ',
-                content: 'Whether you\'re a startup looking to grow rapidly or an established enterprise seeking to expand, our cloud services are built to scale with your needs. Enjoy the flexibility to increase or decrease resources as your business evolves, ensuring cost-effectiveness and optimal performance at all times.',
+                title: "Bespoke Solutions for Your Unique Needs",
+                content: "Our team of experienced developers works closely with you to analyze your business requirements thoroughly. We then design and build custom software solutions that address your specific challenges and deliver the functionalities you need.",
+                icon: "icon-bespoke", // You can replace this with the actual icon class or image URL you want to use.
               },
               {
-                title: 'Robust Security Measures',
-                content: 'Security is our top priority. We employ state-of-the-art security protocols and encryption technologies to safeguard your data and applications. Rest assured that your valuable assets are protected from threats, breaches, and vulnerabilities.',
+                title: "Streamlined Workflows and Increased Efficiency",
+                content: "Our custom software is designed to streamline your workflows and enhance operational efficiency. Say goodbye to manual processes, data silos, and inefficiencies – our solutions are built to optimize your business processes.",
+                icon: "icon-efficiency", // Replace with your desired icon.
+              },{
+                title: "Scalability and Future-Proofing",
+                content: "We don't just create software for today; we design it with an eye on the future. Our scalable solutions grow with your business, ensuring that you stay competitive and adaptable in a rapidly changing digital landscape.",
+                icon: "icon-scalability", // Replace with your desired icon.
               },
               {
-                title:'24/7 Reliability',
-                content:'Downtime is not an option in today\'s digital age. Our cloud services guarantee 99.9% uptime, backed by redundant infrastructure and data centers. Experience uninterrupted operations and exceptional reliability, even during peak traffic.',
-              },
-              {
-                title:'Seamless Migration and Integration',
-                content:'Our team of cloud experts makes transitioning to the cloud seamless. Whether you&oposre migrating from an on-premises infrastructure or another cloud provider, we ensure a smooth transition, preserving data integrity and minimizing disruption.',
+                title: "User-Centric Design",
+                content: "User experience is at the heart of our custom software development process. We create intuitive, user-friendly interfaces that make your software a pleasure to work with, increasing user adoption and satisfaction.",
+                icon: "icon-user-centric", // Replace with your desired icon.
               },
             ],
           },
@@ -89,24 +99,44 @@ const servicesData = [
             sectionTitle: 'Our Cloud Services Portfolio',
             subsections: [
               {
-                title: '1. Infrastructure as a Service (IaaS)                ',
-                content: 'Harness the power of virtualized infrastructure with our IaaS solutions. Customize and manage virtual servers, storage, and networking resources, giving you full control over your cloud environment.                ',
+                title: "Enterprise Software",
+                content: "Tailored enterprise software solutions to optimize your business operations, manage resources efficiently, and enhance productivity.",
+                icon: "icon-enterprise", // Replace with your desired icon.
               },
               {
-                title: '2. Platform as a Service (PaaS)                ',
-                content: 'Simplify application development and deployment with our PaaS offerings. Focus on coding while we handle the underlying infrastructure, making development cycles faster and more efficient.                ',
+                title: "E-commerce Solutions",
+                content: "Custom e-commerce platforms that deliver seamless online shopping experiences, improve sales, and drive customer engagement.",
+                icon: "icon-ecommerce", // Replace with your desired icon.
               },
               {
-                title:'3. Software as a Service (SaaS)                ',
-                content:'Access industry-leading software applications without the need for costly installations and maintenance. Our SaaS solutions cover a wide range of business needs, from productivity tools to collaboration software.                ',
+                title: "CRM and Sales Software",
+                content: "Build robust customer relationship management (CRM) and sales software tailored to your unique customer engagement and sales processes.",
+                icon: "icon-crm", // Replace with your desired icon.
               },
               {
-                title:'4. Managed Cloud Services                ',
-                content:'Offload the day-to-day management of your cloud environment to our experts. Benefit from proactive monitoring, maintenance, and optimization to keep your cloud infrastructure in peak condition.                ',
+                title: "Healthcare IT Solutions",
+                content: "Create compliant and secure healthcare IT solutions, including electronic health records (EHR) systems, telemedicine platforms, and more.",
+                icon: "icon-healthcare", // Replace with your desired icon.
               },
               {
-                title:'5. Disaster Recovery and Backup',
-                content:'Protect your data from unforeseen disasters with our robust backup and disaster recovery services. Ensure business continuity and minimize downtime in the face of unexpected events.                ',
+                title: "Financial Software",
+                content: "Develop custom financial software for accounting, financial planning, and transaction management, ensuring accuracy and compliance.",
+                icon: "icon-financial", // Replace with your desired icon.
+              },
+              {
+                title: "Educational Software",
+                content: "Craft educational software, e-learning platforms, and learning management systems (LMS) to enhance teaching and learning experiences.",
+                icon: "icon-education", // Replace with your desired icon.
+              },
+              {
+                title: "IoT and Smart Solutions",
+                content: "Build Internet of Things (IoT) applications and smart solutions that connect devices and data for improved automation and control.",
+                icon: "icon-iot", // Replace with your desired icon.
+              },
+              {
+                title: "Mobile and Web Apps",
+                content: "Create responsive and feature-rich mobile and web applications tailored to your business objectives and user needs.",
+                icon: "icon-mobile-web", // Replace with your desired icon.
               },
               // ... other subsections for "Packages"
             ],
