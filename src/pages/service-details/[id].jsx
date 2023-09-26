@@ -12,6 +12,7 @@ import Slider from 'react-slick';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import ServiceBanner from '../../components/common/ServiceBanner';
 
 const ServiceDetails = () => {
   const router = useRouter();
@@ -76,8 +77,8 @@ const ServiceDetails = () => {
       <Header />
       <Breadcrumb title={serviceItem.title} subtitle="Service Details" />
 
-      <div className="services-details-area pt-100 pb-105">
-        <div className="container">
+      <div className="services-details-area pt-100 pb-105 ">
+        <div className="container ">
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="services-sm-image w-img mb-45">
@@ -100,13 +101,13 @@ const ServiceDetails = () => {
           </div>
 
           {/* Why Choose Us Section */}
-          <div className="services-text mb-25">
-            <h2 className="center-text-heading">
+          <div className="services-details-area tpservices services-text mb-25">
+            <h2 className="tpservices__title center-text-heading">
               {serviceItem.sections[0].sectionTitle}
             </h2>
-            <div className="why-choose-us-grid">
+            <div className="services-list-area services-details-area why-choose-us-grid">
               {serviceItem.sections[0].subsections.map((subsection, subIndex) => (
-                <div className="grid-item" key={subIndex}>
+                <div className="services-details-area grid-item" key={subIndex}>
                   <div className="tpservices__icon-container">
                     <img
                       src={subsection.icon}
@@ -123,16 +124,16 @@ const ServiceDetails = () => {
             </div>
           </div>
 
-           {/* Packages Section */}
-           <div className="services-text mb-25">
+          {/* Packages Section */}
+          <div className="tpservices tpservices-2  services-text mb-25">
             <h2 className="center-text-heading">
               {serviceItem.sections[1].sectionTitle}
             </h2>
             {/* Check if it's mobile, and if so, render the slider */}
             {isMobile ? (
-               <Slider className="custom-slider" {...sliderSettings}>
+              <Slider className="custom-slider" {...sliderSettings} pauseOnHover={false} pauseOnFocus={false}>
                 {serviceItem.sections[1].subsections.map((subsection, subIndex) => (
-                  <div className="package-item" key={subIndex}>
+                  <div className="package-item " key={subIndex}>
                     <div className="package-icon">
                       {/* Render the icon here */}
                       <i className={`fa ${subsection.icon} icon-large`}></i>
@@ -144,7 +145,7 @@ const ServiceDetails = () => {
               </Slider>
             ) : (
               // On larger screens, render the packages as-is
-              <div className="packages-container">
+              <div className="tpservices__content packages-container">
                 {serviceItem.sections[1].subsections.map((subsection, subIndex) => (
                   <div className="package-item" key={subIndex}>
                     <div className="package-icon">
@@ -158,6 +159,58 @@ const ServiceDetails = () => {
               </div>
             )}
           </div>
+
+          {/* Technologies Section */}
+          <div className="centered-container services-text mb-25">
+            <div className="services-text mb-25">
+              <h2 className="center-text-heading">Technologies</h2>
+              <p className="section-subtitle">Subtitle goes here</p> {/* Add your subtitle here */}
+              {/* Check if it's mobile, and if so, render the slider */}
+              {isMobile ? (
+                <Slider className="custom-slider" {...sliderSettings}>
+                  {serviceItem.technologies.map((techCategory) => (
+                    <div className="technologies-section" key={techCategory.category}>
+                      <img
+                        src={techCategory.icons} // Use the icon path for the category
+                        alt={`Icon for ${techCategory.category}`}
+                        className="category-icon"
+                      />
+                      <h3 className="technologies-category">{techCategory.category}</h3>
+                      <ul>
+                        {techCategory.techList.map((tech, index) => (
+                          <li key={index} className="technology-item">
+                            - {tech}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </Slider>
+              ) : (
+                // On larger screens, render the technologies as-is
+                <div className="technologies-grid">
+                  {serviceItem.technologies.map((techCategory) => (
+                    <div className="technologies-section" key={techCategory.category}>
+                      <img
+                        src={techCategory.icons} // Use the icon path for the category
+                        alt={`Icon for ${techCategory.category}`}
+                        className="category-icon"
+                      />
+                      <h3 className="technologies-category">{techCategory.category}</h3>
+                      <ul>
+                        {techCategory.techList.map((tech, index) => (
+                          <li key={index} className="technology-item">
+                            - {tech}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+          <ServiceBanner serviceName={serviceItem.title} />
 
           {/* 4 Simple Steps Section */}
           <h5 className="services-sm-title mb-25">4 Simple Steps</h5>

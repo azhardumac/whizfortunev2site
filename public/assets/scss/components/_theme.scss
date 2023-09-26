@@ -462,6 +462,39 @@ input[type="color"] {
 	padding: 20px; /* Add padding for spacing within cards */
 	text-align: center; /* Center the content horizontally */
   }
+  @media (max-width: 767px) {
+	.packages-container {
+	  display: grid; /* Use grid layout */
+	  grid-template-columns: repeat(2, 1fr); /* Display two items in one row on mobile */
+	  gap: 20px; /* Adjust the gap between items */
+	}
+  
+	/* Apply mobile styles to package items */
+	.package-item {
+	  flex-basis: calc(100% - 20px); /* Two items in one row on mobile */
+	  max-width: calc(100% - 20px); /* Maximum width for mobile */
+	  padding: 20px;
+	  border: 1px solid #ddd;
+	  background-color: #f9f9f9;
+	  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for the sections */
+	  margin-bottom: 20px; /* Add margin between cards */
+	}
+  
+	.package-item h3 {
+	  font-size: 16px; /* Adjust the font size as needed */
+	  margin-bottom: 10px;
+	}
+  
+	.package-item p {
+	  font-size: 14px; /* Adjust the font size as needed */
+	}
+  
+	/* Remove hover effect on mobile */
+	.package-item:hover {
+	  transform: none;
+	  box-shadow: none;
+	}
+  }
   
   /* Customize the slider container */
   .custom-slider {
@@ -489,8 +522,8 @@ input[type="color"] {
 	text-align: center;
   }
   
-  /* Styling for dot items */
-  .slick-dots li {
+/* Styling for dot items */
+.slick-dots li {
 	display: inline-block;
 	margin: 0 5px; /* Adjust the spacing between dots */
   }
@@ -515,8 +548,8 @@ input[type="color"] {
 	box-sizing: border-box; /* Include padding in the slide width calculation */
   }
   
-  /* Apply hover effect on desktop screens for the Packages section */
-  @media (min-width: 768px) {
+/* Apply hover effect on desktop screens for the Packages section */
+@media (min-width: 768px) {
 	.packages-container .package-item {
 	  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition properties */
 	}
@@ -532,4 +565,132 @@ input[type="color"] {
   }
   
 
+  
+
+ /* CSS for Technologies Section */
+.technologies-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+	gap: 10px; /* Adjust the gap between sections */
+  }
+  
+  .technologies-container {
+	display: flex;
+	flex-wrap: wrap; /* Allow items to wrap to the next row */
+	gap: 20px; /* Adjust the gap between cards */
+  }
+  
+  .technologies-section {
+	flex-basis: calc(33.33% - 20px); /* Each section takes up 33.33% of the container width with spacing */
+	max-width: calc(80.33% - 20px); /* Adjust the maximum width as needed */
+	padding: 20px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for the sections */
+	margin-bottom: 20px; /* Add margin between cards */
+  }
+  
+  
+  .technologies-category {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize; /* Capitalize the category headings */
+  }
+  
+  .technologies-section h3 {
+	font-size: 16px; /* Adjust the font size as needed */
+	margin-bottom: 10px;
+  }
+  
+  .technologies-section ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .technologies-section li {
+	margin-bottom: 5px;
+	display: inline; /* Display items inline */
+	margin-right: 10px; /* Add space between items */
+  }
+  
+  @media (max-width: 767px) {
+	/* On smaller screens (e.g., mobile), allow only one section per row */
+	.technologies-section {
+	  flex-basis: 100%; /* Each section takes up the full width */
+	  max-width: 100%; /* Maximum width for mobile */
+	}
+  }
+  
+  .technology-item {
+	margin-bottom: 0px; /* Reduce the space between items */
+	font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  /* CSS for centering the Technologies section on desktop */
+.centered-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /* Center the content vertically */
+	text-align: center; /* Center the content horizontally */
+	min-height: 100vh; /* Ensure the container takes at least the viewport height */
+	/* CSS for centering the Technologies section on desktop */
+	margin: 0 auto; /* Center the container horizontally */
+	text-align: center; /* Center the content within the container horizontally */  
+}
+  
+
+
+
+
+/* Styles for the ServiceBanner component */
+.service-banner {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .banner-image {
+	background-size: cover;
+	background-position: center;
+	height: 400px; /* Adjust the height as needed */
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff; /* Text color */
+  }
+  
+  .banner-form {
+	padding: 20px;
+  }
+  
+  /* Style the form elements, buttons, and other text as needed */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+	overflow-x: hidden;
+  }
   
