@@ -68,7 +68,7 @@ const Sidebar = ({ headerMenu }) => {
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
               <a href="index.html">
-                <img src="/assets/img/logo/whizlogo2.png" alt="logo" />
+                <img src="/assets/img/logo/whizlogo.png" alt="logo" style={{ maxWidth: '200px' }}/>
               </a>
             </div>
             <div className="sidebar__search mb-25">
@@ -225,7 +225,7 @@ const Sidebar = ({ headerMenu }) => {
               </div>
             </div>
             <div className={`sidebar__map ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-15`}>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29176.030811137334!2d90.3883827!3d23.924917699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1605272373598!5m2!1sen!2sbd"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15137.107558041078!2d73.8892283!3d18.471113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb74365f2cd7%3A0x9bcdb8babc15f86d!2sWhizfortune!5e0!3m2!1sen!2sin!4v1696514741131!5m2!1sen!2sin"></iframe>
             </div>
             <div className="sidebar__contact mt-30 mb-20">
               <h4>Contact Info</h4>

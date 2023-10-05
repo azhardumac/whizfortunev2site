@@ -8,10 +8,10 @@ const AboutArea = () => {
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-content-2 pb-50">
-                <h3 className="tpabout-xd-title mb-15"><b>NEROX</b> CREATIVE</h3>
+                <h3 className="tpabout-xd-title mb-15"><b>Whizfortune</b></h3>
                 <span className="tpabout-xs-title mb-40">Digital Solution For your Business</span>
-                <p className="tpab-text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="tpab-text mb-30">At Whizfortune, we are driven by a relentless passion for technology and a commitment to delivering exceptional solutions that transform businesses. Established with a vision to empower organizations with cutting-edge digital services, we have been at the forefront of innovation and excellence since our inception.</p>
+                <p></p>
                 <div className="tpabout-btn mt-50">
                   <Link href="/contact"><a className="tp-solid-btn">Get in touch</a></Link>
                 </div>

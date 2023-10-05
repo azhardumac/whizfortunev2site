@@ -15,7 +15,7 @@ const FooterTwo = () => {
                   <div className="footer-xs-wrapper mt-60 mb-30">
                     {/* <h5 className="footer-xs-title">Career</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt.</p> */}
-                    <img src='assets/img/logo/whizlogo2.png'></img>
+                    <img src='assets/img/logo/whizlogo.png' style={{ maxWidth: '300px' }}></img>
                   </div>
                 </div>
               </div>

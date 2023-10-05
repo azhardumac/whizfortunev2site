@@ -8,14 +8,16 @@ import AboutArea from './AboutArea';
 import AboutCounter from './AboutCounter';
 import CtaImages from './CtaImages';
 import NeroxAwards from './NeroxAwards';
+import AboutMeTabs from '../AboutMe/AboutMeTabs';
 
 const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="ABOUT NEROX" subtitle=" About Us" />
+      <Breadcrumb title="About Whizfortune" subtitle=" About Us" />
       <AboutArea/>
-      <AboutCounter/>
+      {/* <AboutCounter/> */}
+      <AboutMeTabs/>
       <CtaImages/>
       <BrandArea brand="-2" about="about-brand" />
       <TestimonialFour/>
