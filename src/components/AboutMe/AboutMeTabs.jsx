@@ -31,7 +31,7 @@ const experienceData = [
     id: 1,
     img: 'assets/img/experience/experience-img-1.png',
     title: 'Expertise',
-    desc:'Our team comprises seasoned professionals with a deep understanding of technology trends and industry best practices. We leverage this expertise to craft solutions that don\'t just meet your expectations but exceed them.',
+    desc:'Our team comprises seasoned professionals with a deep understanding of technology trends and industry best practices. We leverage this expertise to craft solutions that don\t just meet your expectations but exceed them.',
     date: '2005 - 2008',
   },
   {
@@ -173,7 +173,7 @@ const AboutMeTabs = () => {
             <div className="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="awards-tab">
               <div className="about-skill__wrap">
                 <h4 className="tab-pane-title mb-20"><b>What Sets Us</b> Apart</h4>
-                <p>Our approach to problem-solving is rooted in a combination of creativity and technical prowess. We believe that technology should not just meet the needs of today but also anticipate the demands of tomorrow. That's why we stay at the forefront of emerging trends and technologies, ensuring that our clients are always well-prepared for what lies ahead.</p>
+                <p>Our approach to problem-solving is rooted in a combination of creativity and technical prowess. We believe that technology should not just meet the needs of today but also anticipate the demands of tomorrow. That&apos;s why we stay at the forefront of emerging trends and technologies, ensuring that our clients are always well-prepared for what lies ahead.</p>
                 <div className="row mt-70">
                   {
                     experienceData.map(item => (
