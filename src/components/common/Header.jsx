@@ -161,13 +161,13 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         </li>
                         <li>
                           {/* dark mode button start  */}
-                          <div className="mode-switch-wrapper my_switcher setting-option">
+                          {/* <div className="mode-switch-wrapper my_switcher setting-option">
                             <input type="checkbox" className="checkbox" id="chk" />
                             <label className="label" htmlFor="chk">
                               <i onClick={() => setTheme('dark')} className="fas fa-sun tp-dark-icon setColor dark theme__switcher-btn" data-theme="dark"></i>
                               <i onClick={() => setTheme('light')} className="fas fa-moon tp-light-icon setColor light theme__switcher-btn" data-theme="light"></i>
                             </label>
-                          </div>
+                          </div> */}
                           {/* dark mode button end  */}
                         </li>
                       </ul>

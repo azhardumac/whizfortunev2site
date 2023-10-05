@@ -891,6 +891,7 @@
     .services-details-area{
         background-color: var(--tp-common-black-soft);
         overflow: hidden;
+        max-width: max-content;
     }
     .services-d-title {
         color: var(--tp-common-white);

@@ -22,7 +22,7 @@ const ServicesBanner = () => {
                       <h5 className="count-number">
                         <Counter number={450} />
                       </h5>
-                      <p>Staticfied Customers</p>
+                      <p>Statisfied Customers</p>
                     </div>
                   </div>
                 </div>

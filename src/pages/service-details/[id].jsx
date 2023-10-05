@@ -69,6 +69,11 @@ const ServiceDetails = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
+  const divStyles = {
+    maxWidth: "1500px", // You can adjust the width as needed
+    // Other styles...
+  };
+
 
 
   return (
@@ -78,7 +83,7 @@ const ServiceDetails = () => {
       <Breadcrumb title={serviceItem.title} subtitle="Service Details" />
 
       <div className="services-details-area pt-100 pb-105 ">
-        <div className="container ">
+        <div className="container" >
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="services-sm-image w-img mb-45">
@@ -210,46 +215,11 @@ const ServiceDetails = () => {
               )}
             </div>
           </div>
-          <ServiceBanner serviceName={serviceItem.title} />
 
-          {/* 4 Simple Steps Section */}
-          <h5 className="services-sm-title mb-25">4 Simple Steps</h5>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet,
-          </p>
-
-          {/* 4 Simple Steps Grid */}
-          <div className="row mt-70">
-            {Array.from({ length: 4 }, (_, index) => (
-              <div
-                className="col-xl-3 col-lg-3 col-md-6 col-sm-6"
-                key={index}
-              >
-                <div className="step-item text-center mb-30">
-                  <div className="step-number-wrapper">
-                    <span className="step-number">0{index + 1}</span>
-                  </div>
-                  <h6 className="step-title mt-40">Step {index + 1}</h6>
-                  <p>
-                    Sed quia non numquam eius <br /> modi tempora incidunt s
-                  </p>
-                  <div className="step-item-shape shape-1">
-                    <img
-                      src="/assets/img/shape/arrow-shape-1.png"
-                      alt="arrow-shape"
-                    />
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+         
         </div>
+        <ServiceBanner serviceName={serviceItem.title} />
+
       </div>
 
       {/* ServiceContact */}
