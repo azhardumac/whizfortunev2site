@@ -1,8 +1,8 @@
 import React from 'react';
 import servicesData from '../../data/servicesData';
-import CustomModal from './CustomModal';
 
-const ServiceHero = ({ selectedService }) => {
+
+const ServiceHero = ({ selectedService,openModal}) => {
   if (!selectedService) {
     return null; // Handle the case where no service is selected
   }
@@ -12,13 +12,16 @@ const ServiceHero = ({ selectedService }) => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-text">
-            <h1 className="hero-title">
-              Get Consulted for {selectedService.title}
+          <h1 className=" center-text-heading">
+              {selectedService.title}
             </h1>
+            <h3 className="hero-title">
+              {selectedService.bannertitle}
+            </h3>
             <p className="hero-description">
               {selectedService.description}
             </p>
-            <button onClick={() => openModal(serviceItem)} className="cta-button" >Schedule a Consultation</button>
+            <button onClick={() => openModal(selectedService)} className="cta-button" >Schedule a Consultation</button>
           </div>
           <div className="hero-image">
             <img

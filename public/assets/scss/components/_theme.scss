@@ -771,6 +771,91 @@ input[type="color"] {
 
 
 
+
+
+  /* CustomModal.css */
+
+  /* CustomModal.css */
+
+/* Styles for the form container */
+.form-container {
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  /* Styles for the input fields */
+  .input-field {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  /* Styles for the submit button */
+  .submit-button {
+	margin-top: 10px;
+	padding: 15px 30px;
+	background: #007BFF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  /* Styles for the close button */
+  .close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	line-height: 1;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 5px;
+  }
+
+
+
+  /* CustomModal.css */
+
+/* Styles for the form and form groups */
+.form-group {
+	margin-bottom: 20px;
+  }
+  
+  .form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f5f5f5; /* Add shading to the input fields */
+  }
+  
+  /* Rest of your existing CSS styles */
+  
+  
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+	.modal-content {
+	  /* Add styles for the modal content on mobile screens */
+	  max-width: 100%; /* Make it full-width on mobile */
+	}
+  }
+  
+
+
+
 html, body {
 	overflow-x: hidden;
   }

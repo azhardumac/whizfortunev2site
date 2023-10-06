@@ -106,7 +106,7 @@ const ServiceDetails = () => {
       <SEO pageTitle={serviceItem.title} />
       <Header />
       {/* <Breadcrumb title={serviceItem.title} subtitle="Service Details" /> */}
-      <ServiceHero selectedService={serviceItem} />
+      <ServiceHero selectedService={serviceItem} openModal={openModal} />
 
 
       <div className="services-details-area pt-1 pb-105 ">
@@ -247,35 +247,15 @@ const ServiceDetails = () => {
         </div>
         <ServiceBanner serviceName={serviceItem.title} />
         {/* Button to open the modal for a specific service */}
-      <button onClick={() => openModal(serviceItem)}>Get Consulted</button>
 
 {/* Modal */}
 {selectedService && (
   <CustomModal
-    isOpen={modalIsOpen}
-    onRequestClose={closeModal}
-    modalTitle={`Get Consulted for ${selectedService.title}`}
-    content={
-      <>
-        {/* Form fields for name, phone, message */}
-        <form>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label htmlFor="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-      </>
-    }
-  />
+  isOpen={modalIsOpen}
+  onRequestClose={closeModal}
+  modalTitle={`Get Consulted for ${selectedService.title}`}
+  formContent={'  '}
+/>
 )}
 
 {/* Other components and content... */}

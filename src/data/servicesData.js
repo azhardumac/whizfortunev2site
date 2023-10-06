@@ -101,7 +101,8 @@ const servicesData = [
   {
     id: 1,
     icon: "/assets/img/icon/flexibility.png",
-    description:"test dscription",
+    description: "Elevate your business to new heights in the digital realm with our cutting-edge cloud solutions. Our expert team leverages the power of the cloud to provide you with flexible, secure, and cost-effective services that scale seamlessly with your needs. Experience 24/7 reliability, robust security, and seamless migration as you embark on a journey of transformation. Join hands with Whizfortune and let the cloud empower your success in the digital age.",
+    bannertitle:"Celebrate Innovation and Scalability with Whizfortune Cloud Services!",
     title: "Cloud Services",
     sections: [
       {
@@ -250,12 +251,15 @@ const servicesData = [
       },
     ],
     image2: "/assets/img/services/cloudservices.jpg",
-    image: "/assets/img/services/cloudservices2.jpg",
+    image: "/assets/img/services/cloudservices2.png",
   },
       {
         id:2,
-        icon:"flaticon-tools",
+        icon:"flaticon",
         title:'Custom Software',
+        bannertitle: "Unlock Your Business Potential with Custom Software Solutions!",
+        description: "At Whizfortune, we specialize in crafting bespoke software tailored to your unique needs. Our team of expert developers collaborates closely with you to analyze your requirements and design custom solutions that streamline your workflows, boost efficiency, and drive growth. Say goodbye to one-size-fits-all software and embrace the power of tailored solutions. Let us help you unlock your business's full potential through innovation and cutting-edge technology.",
+      
         sections: [
           {
             sectionTitle: 'Why Choose Whizfortune for Custom Software Development?            ',
@@ -414,7 +418,7 @@ const servicesData = [
             ],
           },
         ],
-        image:'/assets/img/services/customsoftware.jpg',
+        image:'/assets/img/services/customsoftware.png',
         image2:'/assets/img/services/customsoftware2.jpg',
       },
       {
