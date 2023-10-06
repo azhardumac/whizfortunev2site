@@ -244,15 +244,20 @@
 }
 .sd-banner-sm-item{
     background: var(--tp-common-black);
+    
     padding: 40px 70px;
     &-df{
         background: var(--tp-theme-1);
+        
     }
     p{
         font-size: 16px;
         font-weight: var(--tp-fw-medium);
         color: var(--tp-common-white);
         margin-bottom: 0;
+    }
+    h2{
+        color: #A9ADB5;
     }
     @media #{$xs} {
         padding: 25px 25px;

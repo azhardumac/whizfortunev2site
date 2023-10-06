@@ -8,7 +8,7 @@ const ServiceBanner = ({ serviceName }) => {
   const service = servicesData.find((service) => service.title === serviceName);
 
   // Access the image URL from the service object
-  const imageUrl = service?.image || ''; // Provide a default value if service or image is undefined
+  const imageUrl = service?.image2 || ''; // Provide a default value if service or image is undefined
 
   // Define the inline styles for the div
   const divStyles = {
@@ -34,7 +34,7 @@ const ServiceBanner = ({ serviceName }) => {
                       {/* <h5 className="count-number">
                         <Counter number={249} />
                       </h5> */}
-                      <h5>Get Started with {serviceName}</h5>
+                      <h2>Get Started with {serviceName}</h2>
                     </div>
 
                     <div className="sd-banner-sm-item sd-banner-sm-item-df">

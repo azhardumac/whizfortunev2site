@@ -1,103 +1,103 @@
 const servicesData = [
-  {
-    "id": 0, // Replace with a unique ID for the service.
-    "icon": "/assets/img/icon/service-icon.png", // Replace with the path to the service icon image.
-    "title": "Service Title",
-    "sections": [
-      {
-        "sectionTitle": "Why Choose [Service Name]?",
-        "subsections": [
-          {
-            "title": "Benefit 1",
-            "content": "Description of the first benefit of choosing this service.",
-            "icon": "/assets/img/icon/benefit-icon-1.png" // Replace with the path to the benefit icon image.
-          },
-          {
-            "title": "Benefit 2",
-            "content": "Description of the second benefit of choosing this service.",
-            "icon": "/assets/img/icon/benefit-icon-2.png" // Replace with the path to the benefit icon image.
-          },
-          // Add more benefits as needed...
-        ]
-      },
-      {
-        "sectionTitle": "Our [Service Name] Portfolio",
-        "subsections": [
-          {
-            "title": "Service Subcategory 1",
-            "content": "Description of the first subcategory of services offered.",
-            "icon": "/assets/img/icon/subcategory-icon-1.png" // Replace with the path to the subcategory icon image.
-          },
-          {
-            "title": "Service Subcategory 2",
-            "content": "Description of the second subcategory of services offered.",
-            "icon": "/assets/img/icon/subcategory-icon-2.png" // Replace with the path to the subcategory icon image.
-          },
-          // Add more service subcategories as needed...
-        ]
-      },
-      // Add more sections as needed...
-    ],
-    "technologies": [
-      {
-        "category": "Frontend",
-        "icon": "/assets/img/icon/frontend-icon.png", // Replace with the path to the frontend icon image.
-        "techList": [
-          "Technology 1",
-          "Technology 2",
-          // Add more frontend technologies as needed...
-        ]
-      },
-      {
-        "category": "Backend",
-        "icon": "/assets/img/icon/backend-icon.png", // Replace with the path to the backend icon image.
-        "techList": [
-          "Technology 1",
-          "Technology 2",
-          // Add more backend technologies as needed...
-        ]
-      },
-      {
-        "category": "Database",
-        "icon": "/assets/img/icon/database-icon.png", // Replace with the path to the database icon image.
-        "techList": [
-          "Technology 1",
-          "Technology 2",
-          // Add more database technologies as needed...
-        ]
-      },
-      {
-        "category": "DevOps",
-        "icon": "/assets/img/icon/devops-icon.png", // Replace with the path to the DevOps icon image.
-        "techList": [
-          "Technology 1",
-          "Technology 2",
-          // Add more DevOps technologies as needed...
-        ]
-      },
-      {
-        "category": "Project Management Tools",
-        "icon": "/assets/img/icon/project-management-icon.png", // Replace with the path to the project management icon image.
-        "techList": [
-          "Tool 1",
-          "Tool 2",
-          // Add more project management tools as needed...
-        ]
-      },
-      {
-        "category": "Testing",
-        "icon": "/assets/img/icon/testing-icon.png", // Replace with the path to the testing icon image.
-        "techList": [
-          "Testing Technology 1",
-          "Testing Technology 2",
-          // Add more testing technologies as needed...
-        ]
-      },
-      // Add more technology categories as needed...
-    ],
-    "image": "/assets/img/services/service-image.jpg", // Replace with the path to the service image.
-    "image2": "/assets/img/services/service-image-2.jpg" // Replace with the path to the second service image.
-  },  
+  // {
+  //   "id": 0, // Replace with a unique ID for the service.
+  //   "icon": "/assets/img/icon/service-icon.png", // Replace with the path to the service icon image.
+  //   "title": "Service Title",
+  //   "sections": [
+  //     {
+  //       "sectionTitle": "Why Choose [Service Name]?",
+  //       "subsections": [
+  //         {
+  //           "title": "Benefit 1",
+  //           "content": "Description of the first benefit of choosing this service.",
+  //           "icon": "/assets/img/icon/benefit-icon-1.png" // Replace with the path to the benefit icon image.
+  //         },
+  //         {
+  //           "title": "Benefit 2",
+  //           "content": "Description of the second benefit of choosing this service.",
+  //           "icon": "/assets/img/icon/benefit-icon-2.png" // Replace with the path to the benefit icon image.
+  //         },
+  //         // Add more benefits as needed...
+  //       ]
+  //     },
+  //     {
+  //       "sectionTitle": "Our [Service Name] Portfolio",
+  //       "subsections": [
+  //         {
+  //           "title": "Service Subcategory 1",
+  //           "content": "Description of the first subcategory of services offered.",
+  //           "icon": "/assets/img/icon/subcategory-icon-1.png" // Replace with the path to the subcategory icon image.
+  //         },
+  //         {
+  //           "title": "Service Subcategory 2",
+  //           "content": "Description of the second subcategory of services offered.",
+  //           "icon": "/assets/img/icon/subcategory-icon-2.png" // Replace with the path to the subcategory icon image.
+  //         },
+  //         // Add more service subcategories as needed...
+  //       ]
+  //     },
+  //     // Add more sections as needed...
+  //   ],
+  //   "technologies": [
+  //     {
+  //       "category": "Frontend",
+  //       "icon": "/assets/img/icon/frontend-icon.png", // Replace with the path to the frontend icon image.
+  //       "techList": [
+  //         "Technology 1",
+  //         "Technology 2",
+  //         // Add more frontend technologies as needed...
+  //       ]
+  //     },
+  //     {
+  //       "category": "Backend",
+  //       "icon": "/assets/img/icon/backend-icon.png", // Replace with the path to the backend icon image.
+  //       "techList": [
+  //         "Technology 1",
+  //         "Technology 2",
+  //         // Add more backend technologies as needed...
+  //       ]
+  //     },
+  //     {
+  //       "category": "Database",
+  //       "icon": "/assets/img/icon/database-icon.png", // Replace with the path to the database icon image.
+  //       "techList": [
+  //         "Technology 1",
+  //         "Technology 2",
+  //         // Add more database technologies as needed...
+  //       ]
+  //     },
+  //     {
+  //       "category": "DevOps",
+  //       "icon": "/assets/img/icon/devops-icon.png", // Replace with the path to the DevOps icon image.
+  //       "techList": [
+  //         "Technology 1",
+  //         "Technology 2",
+  //         // Add more DevOps technologies as needed...
+  //       ]
+  //     },
+  //     {
+  //       "category": "Project Management Tools",
+  //       "icon": "/assets/img/icon/project-management-icon.png", // Replace with the path to the project management icon image.
+  //       "techList": [
+  //         "Tool 1",
+  //         "Tool 2",
+  //         // Add more project management tools as needed...
+  //       ]
+  //     },
+  //     {
+  //       "category": "Testing",
+  //       "icon": "/assets/img/icon/testing-icon.png", // Replace with the path to the testing icon image.
+  //       "techList": [
+  //         "Testing Technology 1",
+  //         "Testing Technology 2",
+  //         // Add more testing technologies as needed...
+  //       ]
+  //     },
+  //     // Add more technology categories as needed...
+  //   ],
+  //   "image": "/assets/img/services/service-image.jpg", // Replace with the path to the service image.
+  //   "image2": "/assets/img/services/service-image-2.jpg" // Replace with the path to the second service image.
+  // },  
   {
     id: 1,
     icon: "/assets/img/icon/flexibility.png",
@@ -425,6 +425,8 @@ const servicesData = [
         id: 3, // Ensure that the ID is unique.
         icon: "flaticon-offshore", // Replace with your desired icon.
         title: "Offshore Development",
+        bannertitle: "Maximize Efficiency with Offshore Development Services!",
+        description: "Experience a world of opportunities with Whizfortune's offshore development solutions. Our offshore development team combines talent, technology, and cost-effectiveness to deliver exceptional results. Leverage our global expertise to expand your capabilities, reduce costs, and accelerate project timelines. We ensure seamless collaboration, effective communication, and a dedicated team that works as an extension of your in-house staff. Join hands with Whizfortune for offshore development that drives excellence and unlocks new horizons for your business.",
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Offshore Development?",
@@ -575,13 +577,15 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/offshore-development.jpg", // Replace with the image URL.
+        image: "/assets/img/services/offshoredevelopment1.png", // Replace with the image URL.
         image2: "/assets/img/services/offshore-development2.jpg", // Replace with the second image URL.
       },
       {
         id: 4, // Ensure that the ID is unique.
         icon: "flaticon-mobile-app", // Replace with your desired icon.
         title: "Android and iOS Development",
+        bannertitle: "Elevate Your Mobile Presence with Android and iOS Development!",
+        description: "At Whizfortune, we're your trusted partner for creating exceptional mobile experiences. Our expert Android and iOS development teams are equipped with the latest tools and technologies to turn your app ideas into reality. Whether you're targeting the Android or iOS audience, we've got you covered. From concept to deployment, we ensure top-notch design, flawless functionality, and user-friendly interfaces. Join hands with Whizfortune and let's create mobile apps that stand out in today's competitive market.",
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Mobile App Development?",
@@ -719,7 +723,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/mobile-app-development.jpg", // Replace with the image URL.
+        image: "/assets/img/services/mobile-app-development.png", // Replace with the image URL.
         image2: "/assets/img/services/mobile-app-development2.jpg", // Replace with the second image URL.
       }
       ,
@@ -727,6 +731,8 @@ const servicesData = [
         id: 5, // Ensure that the ID is unique.
         icon: "flaticon-ai", // Replace with your desired icon.
         title: "Artificial Intelligence",
+        bannertitle: "Unlock the Power of AI for Smarter Business Solutions!",
+        description: "At Whizfortune, we harness the capabilities of Artificial Intelligence to drive innovation and efficiency in your business. Our AI solutions are designed to transform data into actionable insights, automate repetitive tasks, and enhance decision-making. Whether you're looking to implement AI-powered chatbots, predictive analytics, or machine learning algorithms, our expert team has you covered. Join hands with Whizfortune and embrace the future of intelligent technology to gain a competitive edge in your industry.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Artificial Intelligence?",
@@ -860,13 +866,15 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/ai.jpg", // Replace with the image URL.
+        image: "/assets/img/services/ai.png", // Replace with the image URL.
         image2: "/assets/img/services/ai2.jpg", // Replace with the second image URL.
       },
       {
         id: 6, // Ensure that the ID is unique.
         icon: "flaticon-devops", // Replace with your desired icon.
         title: "DevOps",
+        bannertitle: "Accelerate Your Development Lifecycle with DevOps Excellence!",
+        description: "Whizfortune brings you the power of DevOps to streamline your software development and deployment processes. Our DevOps experts help you achieve faster releases, higher quality software, and improved collaboration between development and operations teams. From automating manual tasks to optimizing workflows, we deliver DevOps solutions that drive efficiency and innovation. Partner with Whizfortune to embrace DevOps practices and propel your business toward continuous improvement and success.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for DevOps?",
@@ -1002,13 +1010,15 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/devops.jpg", // Replace with the image URL.
+        image: "/assets/img/services/devops.png", // Replace with the image URL.
         image2: "/assets/img/services/devops2.jpg", // Replace with the second image URL.
       },
       {
         id: 7, // Ensure that the ID is unique.
         icon: "flaticon-web-development", // Replace with your desired icon.
         title: "Web Development",
+        bannertitle: "Crafting Exceptional Web Experiences for Your Digital Journey!",
+        description: "Whizfortune is your go-to partner for web development that makes an impact. Our team of skilled developers specializes in creating stunning and high-performing websites tailored to your unique needs. Whether you're launching a new site or revamping an existing one, we bring your vision to life with cutting-edge technologies and user-centric design. Trust us to deliver responsive, feature-rich, and SEO-friendly websites that drive engagement and conversions. Join hands with Whizfortune and embark on a journey of web excellence.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Web Development?",
@@ -1149,13 +1159,15 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/web-development.jpg", // Replace with the image URL.
+        image: "/assets/img/services/web-development.png", // Replace with the image URL.
         image2: "/assets/img/services/web-development2.jpg", // Replace with the second image URL.
       },
       {
         id: 8, // Ensure that the ID is unique.
         icon: "flaticon-digital-marketing", // Replace with your desired icon.
         title: "Digital Marketing",
+        bannertitle: "Elevate Your Brand with Data-Driven Digital Marketing Solutions!",
+        description: "At Whizfortune, we empower businesses with strategic digital marketing that delivers results. Our expert digital marketers leverage data insights to craft tailored strategies that drive brand awareness, engagement, and conversions. From search engine optimization (SEO) to pay-per-click (PPC) advertising, we cover the entire digital landscape. Partner with us to harness the power of social media, content marketing, and email campaigns to reach your target audience effectively. Let's elevate your brand together and ensure your online presence stands out in the digital world.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Digital Marketing?",
@@ -1295,13 +1307,15 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/digital-marketing.jpg", // Replace with the image URL.
+        image: "/assets/img/services/digital-marketing.png", // Replace with the image URL.
         image2: "/assets/img/services/digital-marketing2.jpg", // Replace with the second image URL.
       },
       {
         id: 9, // Ensure that the ID is unique.
-        icon: "flaticon-seo", // Replace with your desired icon.
-        title: "Search Engine Optimization (SEO) Services",
+        icon: "flaticon", // Replace with your desired icon.
+        title: "Search Engine Optimization (SEO)",
+        bannertitle: "Boost Your Online Visibility with Expert SEO Services!",
+        description: "Whizfortune is your trusted partner for SEO strategies that drive organic growth. Our dedicated team of SEO experts understands the complexities of search engine algorithms and optimizes your online presence to rank higher in search results. From on-page optimization to content strategy and link building, we cover all aspects of SEO. Watch your website's traffic soar and your brand visibility expand as we work diligently to improve your search engine rankings. Join hands with Whizfortune to unlock the full potential of your online presence through strategic SEO.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for SEO?",
@@ -1407,7 +1421,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/seo.jpg", // Replace with the image URL.
+        image: "/assets/img/services/seo.png", // Replace with the image URL.
         image2: "/assets/img/services/seo2.jpg", // Replace with the second image URL.
       }
       ,
@@ -1415,6 +1429,8 @@ const servicesData = [
         id: 10, // Ensure that the ID is unique.
         icon: "flaticon-cybersecurity", // Replace with your desired icon.
         title: "Cybersecurity Solutions",
+        bannertitle: "Protect Your Digital Assets with Robust Cybersecurity Solutions!",
+        description: "Whizfortune is your shield in the digital realm, offering cutting-edge cybersecurity solutions to safeguard your business from evolving threats. Our expert cybersecurity team employs advanced technologies and proactive strategies to protect your sensitive data, networks, and applications. From threat detection to incident response, we ensure the utmost security for your digital assets. Partner with Whizfortune to fortify your defenses, achieve compliance, and enjoy peace of mind knowing that your business is protected from cyber threats.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Cybersecurity?",
@@ -1523,7 +1539,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/cybersecurity.jpg", // Replace with the image URL.
+        image: "/assets/img/services/cybersecurity.png", // Replace with the image URL.
         image2: "/assets/img/services/cybersecurity2.jpg", // Replace with the second image URL.
       }
       ,
@@ -1531,6 +1547,8 @@ const servicesData = [
         id: 11, // Ensure that the ID is unique.
         icon: "flaticon-maintenance-support", // Replace with your desired icon.
         title: "Maintenance and Support Services",
+        bannertitle: "Reliable Maintenance and Support to Keep Your Business Running Smoothly!",
+        description: "Whizfortune understands that your business needs dependable maintenance and support services to ensure uninterrupted operations. Our dedicated support team is at your service to resolve issues, perform updates, and maintain your digital infrastructure. With proactive monitoring and round-the-clock assistance, we keep your systems running smoothly, allowing you to focus on core business activities. Partner with Whizfortune for peace of mind and a hassle-free maintenance experience that ensures your business stays on the path to success.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Maintenance and Support?",
@@ -1653,6 +1671,8 @@ const servicesData = [
         id: 12, // Ensure that the ID is unique.
         icon: "flaticon-design", // Replace with your desired icon.
         title: "UI/UX and Graphics Design",
+        bannertitle: "Elevate User Experiences with Exceptional UI/UX and Graphic Design!",
+        description: "Whizfortune is your creative partner for crafting stunning user interfaces and graphic designs that captivate and engage your audience. Our skilled designers bring innovation and aesthetics to every project, ensuring an exceptional user experience. From intuitive app interfaces to eye-catching branding materials, we cover it all. Trust us to enhance your brand identity and deliver visual experiences that leave a lasting impression. Partner with Whizfortune to take your design aesthetics to the next level and make a memorable impact.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for Design Services?",
