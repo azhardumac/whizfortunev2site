@@ -1,5 +1,6 @@
 import React from 'react';
 import servicesData from '../../data/servicesData';
+import CustomModal from './CustomModal';
 
 const ServiceHero = ({ selectedService }) => {
   if (!selectedService) {
@@ -17,7 +18,7 @@ const ServiceHero = ({ selectedService }) => {
             <p className="hero-description">
               {selectedService.description}
             </p>
-            <button className="cta-button">Schedule a Consultation</button>
+            <button onClick={() => openModal(serviceItem)} className="cta-button" >Schedule a Consultation</button>
           </div>
           <div className="hero-image">
             <img

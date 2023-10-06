@@ -249,8 +249,8 @@ const servicesData = [
         ],
       },
     ],
-    image: "/assets/img/services/cloudservices.jpg",
-    image2: "/assets/img/services/cloudservices2.jpg",
+    image2: "/assets/img/services/cloudservices.jpg",
+    image: "/assets/img/services/cloudservices2.jpg",
   },
       {
         id:2,

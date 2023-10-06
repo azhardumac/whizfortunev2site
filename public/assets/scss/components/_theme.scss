@@ -701,53 +701,72 @@ input[type="color"] {
 
 /* ServiceHero.css */
 .hero-section {
-	background-color: #f8f8f8; /* Add your background color here */
-	padding: 60px 0;
-  }
-  
-  .hero-content {
-	display: flex; /* Use Flexbox */
-	align-items: center; /* Center vertically */
-	justify-content: space-between; /* Space items horizontally */
-  }
-  
-  .hero-text {
-	flex: 1; /* Take half of the space */
-	padding: 20px; /* Add spacing as needed */
-	text-align: center; /* Center text */
-  }
-  
-  .hero-title {
-	font-size: 24px; /* Adjust font size */
-	margin-bottom: 10px; /* Add margin as needed */
-  }
-  
-  .hero-description {
-	font-size: 16px; /* Adjust font size */
-  }
-  
-  .cta-button {
-	background-color: #007bff; /* Add your button styles */
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-  }
-  
-  .hero-image {
-	flex: 1; /* Take half of the space */
-	padding: 20px; /* Add spacing as needed */
-	text-align: center; /* Center image */
-  }
-  
-  .hero-image img {
-	max-width: 100%; /* Ensure the image doesn't overflow */
-	height: auto;
-  }
-	
+  background-color: #f8f8f8; /* Add your background color here */
+  padding: 60px 0;
+}
 
+.hero-content {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space items horizontally */
+}
 
+.hero-text {
+  flex: 1; /* Take half of the space */
+  padding: 20px; /* Add spacing as needed */
+  text-align: center; /* Center text */
+}
+
+.hero-title {
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 10px; /* Add margin as needed */
+}
+
+.hero-description {
+  font-size: 16px; /* Adjust font size */
+}
+
+.cta-button {
+  background-color: #007bff; /* Add your button styles */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1; /* Take half of the space */
+  padding: 20px; /* Add spacing as needed */
+  text-align: center; /* Center image */
+}
+
+.hero-image img {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  height: auto;
+}
+  
+
+/* ServiceHero.css */
+/* Add your previous CSS styles here */
+
+/* Media query for mobile devices with a maximum width of 767px */
+@media (max-width: 767px) {
+	.hero-content {
+	  flex-direction: column; /* Stack content vertically on mobile */
+	}
+  
+	.hero-text {
+	  order: 1; /* Change the order of text on mobile */
+	}
+  
+	.hero-image {
+	  display: block; /* Display the image on mobile */
+	  order: 2; /* Change the order of the image on mobile */
+	  margin-top: 20px; /* Add spacing between text and image on mobile */
+	}
+  }
+  
 
 
 
