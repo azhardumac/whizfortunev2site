@@ -15,7 +15,9 @@ import CustomModal from '../../components/common/CustomModal';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 import ServiceBanner from '../../components/common/ServiceBanner';
+import ServiceHero from '../../components/common/ServiceHero';
 
 
 const ServiceDetails = () => {
@@ -29,6 +31,8 @@ const ServiceDetails = () => {
   const router = useRouter();
   const { id } = router.query;
   const serviceItem = servicesData.find((item) => item.id == id);
+  
+  
 
   const [isMobile, setIsMobile] = useState(false);
 
@@ -101,11 +105,13 @@ const ServiceDetails = () => {
     <>
       <SEO pageTitle={serviceItem.title} />
       <Header />
-      <Breadcrumb title={serviceItem.title} subtitle="Service Details" />
+      {/* <Breadcrumb title={serviceItem.title} subtitle="Service Details" /> */}
+      <ServiceHero selectedService={serviceItem} />
 
-      <div className="services-details-area pt-100 pb-105 ">
+
+      <div className="services-details-area pt-1 pb-105 ">
         <div className="container" >
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="services-sm-image w-img mb-45">
                 <img
@@ -124,11 +130,11 @@ const ServiceDetails = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Why Choose Us Section */}
           <div className="services-details-area tpservices services-text mb-25">
-            <h2 className="tpservices__title center-text-heading">
+            <h2 className="tpservices center-text-heading">
               {serviceItem.sections[0].sectionTitle}
             </h2>
             <div className="services-list-area services-details-area why-choose-us-grid">
