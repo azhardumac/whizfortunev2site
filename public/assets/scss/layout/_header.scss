@@ -34,7 +34,7 @@
 /* main menu css */
 .tpmenu{
     @media #{$lg}{
-        margin-left: 30px;
+        margin-left: 10px;
     }
     &-2{
         @media #{$lg}{
@@ -46,7 +46,7 @@
             position: relative;
             list-style: none;
             display: inline-block;
-            margin-right: 40px;
+            margin-right: 20px;
             @media #{$lg}{
                 margin-right: 20px;
             }

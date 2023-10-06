@@ -31,10 +31,10 @@ const ServiceBanner = ({ serviceName }) => {
                 <div className="col-xl-6">
                   <div className="sd-banner-content">
                     <div className="sd-banner-sm-item">
-                      <h5 className="count-number">
+                      {/* <h5 className="count-number">
                         <Counter number={249} />
-                      </h5>
-                      <h2>Get Started with {serviceName}</h2>
+                      </h5> */}
+                      <h5>Get Started with {serviceName}</h5>
                     </div>
 
                     <div className="sd-banner-sm-item sd-banner-sm-item-df">

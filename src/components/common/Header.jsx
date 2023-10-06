@@ -35,9 +35,9 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   </div>
                 </div>
                 <div className="col-xxxl-6 col-xl-7 col-lg-7 d-none d-lg-block">
-                  <div className="tpmenu">
+                  <div className="tpmenu ">
                     <nav id="mobile-menu">
-                      <ul>
+                      <ul className='align-content-left'>
                         <li className="has-dropdown">
                           <Link href="/">
                              <a>Home</a>
@@ -62,8 +62,9 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/about">About</Link>
                         </li>
                         <li className="has-dropdown megamenu-full">
-                          <a href="#">Services</a>
+                          <a href="/services">Our Services</a>
                           <ul className="megamenu">
+                            {/* FIXME: */}
                             <li>
                               <a href="#" className="megamenu-title">Our Services</a>
 
@@ -81,7 +82,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                               </ul>
                             </li>
                             <li>
-                              <a href="#" className="megamenu-title">Page Layout 2</a>
+                              <a href="#" className="megamenu-title">Development</a>
 
                               <ul>
                                 <li><Link href="/portfolio">Portfolio</Link></li>
@@ -123,13 +124,76 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                             </li>
                           </ul>
                         </li>
-                        <li className="has-dropdown">
+                        <li className="has-dropdown megamenu-full">
+                        {/* FIXME: */}
+                          <a href="#">Technology</a>
+                          <ul className="megamenu">
+                            <li>
+                              <a href="#" className="megamenu-title">Our Services</a>
+
+                              <ul>
+                                <li>Leveraging cutting-edge technologies to build industry-leading digital products</li>
+                                
+                                {/* <li><Link href="/about-me">About Me</Link></li>
+                                <li><Link href="/contact">Contact</Link></li>
+                                <li><Link href="/faq">FAQ</Link></li>
+                                <li><Link href="/help-center">Help Center</Link></li>
+                                // <li><Link href="/error-page">Error 404</Link></li>
+                                <li><Link href="/pricing-plan">Pricing Plan</Link></li>
+                                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                                <li><Link href="/coming-soon">Coming Soon</Link></li> */}
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="#" className="megamenu-title">Development</a>
+
+                              <ul>
+                                <li><Link href="/portfolio">Portfolio</Link></li>
+                                <li><Link href="/portfolio-two">Portfolio 2</Link></li>
+                                <li><Link href="/portfolio-three">Portfolio 3</Link></li>
+                                <li><Link href="/portfolio-four">Portfolio 4</Link></li>
+                                <li><Link href="/portfolio-five">Portfolio 5</Link></li>
+                                <li><Link href="/portfolio-six">Portfolio 6</Link></li>
+                                <li><Link href="/portfolio-details">Portfolio Details</Link></li>
+                                <li><Link href="/job-list">Job List</Link></li>
+                                <li><Link href="/job-details ">Job Details</Link></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="#" className="megamenu-title">Page Layout 3</a>
+                              <ul>
+                                <li><Link href="/services">Services</Link></li>
+                                <li><Link href="/services-two">Services 2</Link></li>
+                                <li><Link href="/services-three">Services 3</Link></li>
+                                <li><Link href="/services-four">Services 4</Link></li>
+                                <li><Link href="/service-details">Services Details</Link></li>
+                                <li><Link href="/team">Team</Link></li>
+                                <li><Link href="/team-two">Team 2</Link></li>
+                                <li><Link href="/about-me">Team Details</Link></li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="#" className="megamenu-title">Page Layout 4</a>
+
+                              <ul>
+                                <li><Link href="/shop">Shop</Link></li>
+                                <li><Link href="/product-details">Product Details</Link></li>
+                                <li><Link href="/cart">Cart</Link></li>
+                                <li><Link href="/wishlist">Wishlist</Link></li>
+                                <li><Link href="/checkout">Checkout</Link></li>
+                                <li><Link href="/sign-in">Login</Link></li>
+                                <li><Link href="/sign-up">Register</Link></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        {/* <li className="has-dropdown">
                           <Link href="/services">Services</Link>
                           <ul className="submenu">
                             <li><Link href="/services">Services Page</Link></li>
                             <li><Link href="/service-details">Services Deatils</Link></li>
                           </ul>
-                        </li>
+                        </li> */}
                         <li className="has-dropdown">
                           <Link href="/blog">Blog</Link>
                           <ul className="submenu">
@@ -146,7 +210,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   </div>
                 </div>
                 {
-                  !headerEight && <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+                  !headerEight && <div className="col-xxl-3 col-xl-2 col-lg-3 col-md-6 col-6">
                     <div className="tp-header-action">
                       <ul>
                         {/* <li className="d-none d-sm-inline-block">
@@ -172,6 +236,10 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         </li>
                       </ul>
                     </div>
+                    {/* FIXME:BUTTON ON HEADER */}
+                    {/* <div className="tp-header-btn ml-30 d-none d-xl-block">
+                        <a href="#" className="tp-solid-btn">contact us</a>
+                      </div> */}
                   </div>
                 }
 
