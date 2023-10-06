@@ -62,7 +62,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/about">About</Link>
                         </li>
                         <li className="has-dropdown megamenu-full">
-                          <a href="/services">Our Services</a>
+                        <Link href="/services"><a >Our Services</a></Link>
                           <ul className="megamenu">
                             {/* FIXME: */}
                             <li>
