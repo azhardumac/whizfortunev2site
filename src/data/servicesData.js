@@ -1,5 +1,104 @@
 const servicesData = [
-    {
+  {
+    "id": 0, // Replace with a unique ID for the service.
+    "icon": "/assets/img/icon/service-icon.png", // Replace with the path to the service icon image.
+    "title": "Service Title",
+    "sections": [
+      {
+        "sectionTitle": "Why Choose [Service Name]?",
+        "subsections": [
+          {
+            "title": "Benefit 1",
+            "content": "Description of the first benefit of choosing this service.",
+            "icon": "/assets/img/icon/benefit-icon-1.png" // Replace with the path to the benefit icon image.
+          },
+          {
+            "title": "Benefit 2",
+            "content": "Description of the second benefit of choosing this service.",
+            "icon": "/assets/img/icon/benefit-icon-2.png" // Replace with the path to the benefit icon image.
+          },
+          // Add more benefits as needed...
+        ]
+      },
+      {
+        "sectionTitle": "Our [Service Name] Portfolio",
+        "subsections": [
+          {
+            "title": "Service Subcategory 1",
+            "content": "Description of the first subcategory of services offered.",
+            "icon": "/assets/img/icon/subcategory-icon-1.png" // Replace with the path to the subcategory icon image.
+          },
+          {
+            "title": "Service Subcategory 2",
+            "content": "Description of the second subcategory of services offered.",
+            "icon": "/assets/img/icon/subcategory-icon-2.png" // Replace with the path to the subcategory icon image.
+          },
+          // Add more service subcategories as needed...
+        ]
+      },
+      // Add more sections as needed...
+    ],
+    "technologies": [
+      {
+        "category": "Frontend",
+        "icon": "/assets/img/icon/frontend-icon.png", // Replace with the path to the frontend icon image.
+        "techList": [
+          "Technology 1",
+          "Technology 2",
+          // Add more frontend technologies as needed...
+        ]
+      },
+      {
+        "category": "Backend",
+        "icon": "/assets/img/icon/backend-icon.png", // Replace with the path to the backend icon image.
+        "techList": [
+          "Technology 1",
+          "Technology 2",
+          // Add more backend technologies as needed...
+        ]
+      },
+      {
+        "category": "Database",
+        "icon": "/assets/img/icon/database-icon.png", // Replace with the path to the database icon image.
+        "techList": [
+          "Technology 1",
+          "Technology 2",
+          // Add more database technologies as needed...
+        ]
+      },
+      {
+        "category": "DevOps",
+        "icon": "/assets/img/icon/devops-icon.png", // Replace with the path to the DevOps icon image.
+        "techList": [
+          "Technology 1",
+          "Technology 2",
+          // Add more DevOps technologies as needed...
+        ]
+      },
+      {
+        "category": "Project Management Tools",
+        "icon": "/assets/img/icon/project-management-icon.png", // Replace with the path to the project management icon image.
+        "techList": [
+          "Tool 1",
+          "Tool 2",
+          // Add more project management tools as needed...
+        ]
+      },
+      {
+        "category": "Testing",
+        "icon": "/assets/img/icon/testing-icon.png", // Replace with the path to the testing icon image.
+        "techList": [
+          "Testing Technology 1",
+          "Testing Technology 2",
+          // Add more testing technologies as needed...
+        ]
+      },
+      // Add more technology categories as needed...
+    ],
+    "image": "/assets/img/services/service-image.jpg", // Replace with the path to the service image.
+    "image2": "/assets/img/services/service-image-2.jpg" // Replace with the path to the second service image.
+  },  
+  {
     id: 1,
     icon: "/assets/img/icon/flexibility.png",
     title: "Cloud Services",

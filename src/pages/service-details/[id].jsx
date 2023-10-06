@@ -10,11 +10,22 @@ import ServiceContact from '../../components/Service-details/ServiceContact';
 import servicesData from '../../data/servicesData';
 import Slider from 'react-slick';
 
+import useAutoPopup from '../../hooks/useAutoPopup';
+import CustomModal from '../../components/common/CustomModal';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ServiceBanner from '../../components/common/ServiceBanner';
 
+
 const ServiceDetails = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedService, setSelectedService] = useState(null);
+  const { isAutoPopupOpen, openAutoPopup, closeAutoPopup } = useAutoPopup();
+
+
+
+
   const router = useRouter();
   const { id } = router.query;
   const serviceItem = servicesData.find((item) => item.id == id);
@@ -74,6 +85,16 @@ const ServiceDetails = () => {
     // Other styles...
   };
 
+
+  const openModal = (service) => {
+    setSelectedService(service);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedService(null);
+    setModalIsOpen(false);
+  };
 
 
   return (
@@ -219,6 +240,39 @@ const ServiceDetails = () => {
          
         </div>
         <ServiceBanner serviceName={serviceItem.title} />
+        {/* Button to open the modal for a specific service */}
+      <button onClick={() => openModal(serviceItem)}>Get Consulted</button>
+
+{/* Modal */}
+{selectedService && (
+  <CustomModal
+    isOpen={modalIsOpen}
+    onRequestClose={closeModal}
+    modalTitle={`Get Consulted for ${selectedService.title}`}
+    content={
+      <>
+        {/* Form fields for name, phone, message */}
+        <form>
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label htmlFor="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </>
+    }
+  />
+)}
+
+{/* Other components and content... */}
 
       </div>
 
