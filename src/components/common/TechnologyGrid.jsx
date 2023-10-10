@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Masonry from 'react-responsive-masonry';
 import { motion } from 'framer-motion';
 import technologyData from '../../data/technologyData';
 
@@ -27,53 +27,46 @@ const TechnologyGrid = () => {
   };
 
   return (
-    <div className="tp-creative-lists-area tp-creative-padding pt-140 pb-140">
-      {/* Add your filter buttons here */}
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="tp-creative__menu tp-creative__menu-grid text-center filter-button-group mb-70">
-              {/* Map over categories and create filter buttons */}
-              {Object.keys(technologyData).map((category) => (
-                <button
-                  key={category}
-                  className={`filter-button ${active === category && 'active'}`}
-                  onClick={() => handleFilterItems(category)}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
+    <div className="custom-technology-grid mt-50 mb-150">
+      <h2 className='custom-technology-item mb-20'>Technologies we work with.</h2>
+      {/* Filter buttons */}
+      <div className="custom-filter-buttons mt-20">
+        {/* Map over categories and create filter buttons */}
+        {Object.keys(technologyData).map((category) => (
+          <button
+            key={category}
+            className={`custom-filter-button ${active === category && 'custom-active'} mb-30`}
+            onClick={() => handleFilterItems(category)}
+          >
+            {category}
+          </button>
+        ))}
       </div>
 
-      {/* Display technology logos */}
-      <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 750: 2, 900: 3 }}>
-        <Masonry gutter="25px">
-          {filteredTechnologies.map((item) => (
-            <motion.div
-              layout
-              animate={{ scale: 1 }}
-              initial={{ scale: 0.9 }}
-              exit={{ scale: 1 }}
-              transition={{ duration: 0.8 }}
-              key={item.id}
-              className="technology-item mb-60"
-            >
-              <div className="technology-logo">
-                {/* Adjust the image size as needed */}
-                <img
-                  src={item.logo}
-                  alt={item.name}
-                  style={{ width: '100px', height: 'auto' }}
-                />
-              </div>
-              <div className="technology-name">{item.name}</div>
-            </motion.div>
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
+      {/* Technology logos */}
+      <div className="custom-technology-items">
+        {filteredTechnologies.map((item) => (
+          <motion.div
+            layout
+            animate={{ scale: 1 }}
+            initial={{ scale: 0.9 }}
+            exit={{ scale: 1 }}
+            transition={{ duration: 0.8 }}
+            key={item.id}
+            className="custom-technology-item"
+          >
+            <div className="custom-technology-logo">
+              {/* Adjust the image size as needed */}
+              <img
+                src={item.logo}
+                alt={item.name}
+                style={{ width: '100px', height: 'auto' }}
+              />
+            </div>
+            <div className="custom-technology-name">{item.name}</div>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 };
