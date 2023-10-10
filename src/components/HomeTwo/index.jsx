@@ -12,6 +12,8 @@ import ServicesTwo from './ServicesTwo';
 import TeamTwo from './TeamTwo';
 import TestimonialTwo from './TestimonialTwo';
 import HeroSliderFour from './HeroSliderFour';
+import TechnologyGrid from '../common/TechnologyGrid';
+import technologyData from '../../data/technologyData';
 
 
 const HomeTwoMain = () => {
@@ -21,6 +23,7 @@ const HomeTwoMain = () => {
       <HeroSliderFour/>
       <ServicesTwo/>
       <AboutTwo/>
+      <TechnologyGrid technologyData={technologyData} />
       <CounterTwo/>
       <PortfolioTwo/>
       <TestimonialTwo/>
