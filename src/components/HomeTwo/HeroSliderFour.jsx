@@ -7,19 +7,20 @@ const HeroSliderFour = () => {
   const sliderData = [
     {
       id: 1,
-      bg: 'assets/img/slider/bghome1.jpg',
+      bg: 'assets/img/slider/techimg.png',
       title: 'Elevate Your Online Presence with Stunning Web Design',
       subtitle: <>Web<span> Design</span></>
     },
     {
       id: 2,
-      bg: 'assets/img/slider/bghome1.jpg',
+      // bg: 'assets/img/slider/techimg2.png',
+      bg:'assets/img/slider/techimgbg.jpg',
       title: 'Transform Your Ideas into Reality with Expert Software Development',
       subtitle: <>Software <span>Development</span></>
     },
     {
       id: 3,
-      bg: 'assets/img/slider/slider-2-1.jpg',
+      bg: 'assets/img/slider/bgtech3.jpg',
       title: "Boost Your Brand's Visibility and ROI through Strategic Digital Marketing",
       subtitle: <>Digital <span>Marketing</span></>
     },

@@ -1663,7 +1663,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/maintenance-support.jpg", // Replace with the image URL.
+        image: "/assets/img/services/maintenance-support.png", // Replace with the image URL.
         image2: "/assets/img/services/maintenance-support2.jpg", // Replace with the second image URL.
       }
       ,
@@ -1788,7 +1788,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/ui-ux-graphics.jpg", // Replace with the image URL.
+        image: "/assets/img/services/ui-ux-graphics.png", // Replace with the image URL.
         image2: "/assets/img/services/ui-ux-graphics2.jpg", // Replace with the second image URL.
       }
       ,
@@ -1796,6 +1796,8 @@ const servicesData = [
         id: 13, // Ensure that the ID is unique.
         icon: "flaticon-testing", // Replace with your desired icon.
         title: "QA and Testing Services",
+        bannertitle: "Ensure Flawless Performance with Rigorous QA and Testing!",
+        description: "At Whizfortune, we understand that quality assurance and testing are integral to delivering reliable and high-performance software. Our dedicated QA and testing team employs industry-leading practices to ensure your applications function flawlessly. From functionality testing to performance testing and security testing, we leave no stone unturned. Count on us to identify and rectify issues before they impact your users. Partner with Whizfortune for comprehensive testing services that guarantee your software meets the highest quality standards.",      
         sections: [
           {
             sectionTitle: "Why Choose Whizfortune for QA and Testing?",
@@ -1916,7 +1918,7 @@ const servicesData = [
             ],
           },
         ],
-        image: "/assets/img/services/qa-testing.jpg", // Replace with the image URL.
+        image: "/assets/img/services/qa-testing.png", // Replace with the image URL.
         image2: "/assets/img/services/qa-testing2.jpg", // Replace with the second image URL.
       }
       ,
