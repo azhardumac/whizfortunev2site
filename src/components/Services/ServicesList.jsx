@@ -12,7 +12,7 @@ const ServicesList = () => {
                 <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                   <div className="tpservices tpservices-2 text-center mb-30">
                     <div className="tpservices__icon mb-30">
-                      <i className={item.icon}></i>
+                    <img src={item.icon} alt={`Icon for ${item.title}`} style={{ width: '100px', height: '100px' }}  />
                     </div>
                     <div className="tpservices__content">
                       <h4 className="tpservices__title mb-25">

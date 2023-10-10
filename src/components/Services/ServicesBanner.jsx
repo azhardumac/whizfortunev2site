@@ -6,7 +6,7 @@ const ServicesBanner = () => {
     <>
       <div className="sd-banner-area">
         <div className="sd-banner-wrapper">
-          <div className="sd-banner-item sd-banner-item-height p-relative" style={{backgroundImage:`url(assets/img/banner/banner-img-3.jpg)`,backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
+          <div className="sd-banner-item sd-banner-item-height p-relative" style={{backgroundImage:`url(assets/img/banner/servicetech.jpg)`,backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat'}}>
             <div className="container">
               <div className="row justify-content-end">
                 <div className="col-xl-6">

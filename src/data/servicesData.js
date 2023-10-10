@@ -100,7 +100,7 @@ const servicesData = [
   // },  
   {
     id: 1,
-    icon: "/assets/img/icon/flexibility.png",
+    icon: "/assets/img/icon/service-icons/cloud.png",
     description: "Elevate your business to new heights in the digital realm with our cutting-edge cloud solutions. Our expert team leverages the power of the cloud to provide you with flexible, secure, and cost-effective services that scale seamlessly with your needs. Experience 24/7 reliability, robust security, and seamless migration as you embark on a journey of transformation. Join hands with Whizfortune and let the cloud empower your success in the digital age.",
     bannertitle:"Celebrate Innovation and Scalability with Whizfortune Cloud Services!",
     title: "Cloud Services",
@@ -255,7 +255,7 @@ const servicesData = [
   },
       {
         id:2,
-        icon:"flaticon",
+        icon:"/assets/img/icon/service-icons/custom-development.png",
         title:'Custom Software',
         bannertitle: "Unlock Your Business Potential with Custom Software Solutions!",
         description: "At Whizfortune, we specialize in crafting bespoke software tailored to your unique needs. Our team of expert developers collaborates closely with you to analyze your requirements and design custom solutions that streamline your workflows, boost efficiency, and drive growth. Say goodbye to one-size-fits-all software and embrace the power of tailored solutions. Let us help you unlock your business's full potential through innovation and cutting-edge technology.",
@@ -423,7 +423,7 @@ const servicesData = [
       },
       {
         id: 3, // Ensure that the ID is unique.
-        icon: "flaticon-offshore", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/offshore.png", // Replace with your desired icon.
         title: "Offshore Development",
         bannertitle: "Maximize Efficiency with Offshore Development Services!",
         description: "Experience a world of opportunities with Whizfortune's offshore development solutions. Our offshore development team combines talent, technology, and cost-effectiveness to deliver exceptional results. Leverage our global expertise to expand your capabilities, reduce costs, and accelerate project timelines. We ensure seamless collaboration, effective communication, and a dedicated team that works as an extension of your in-house staff. Join hands with Whizfortune for offshore development that drives excellence and unlocks new horizons for your business.",
@@ -582,7 +582,7 @@ const servicesData = [
       },
       {
         id: 4, // Ensure that the ID is unique.
-        icon: "flaticon-mobile-app", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/appdevelopment.png", // Replace with your desired icon.
         title: "Android and iOS Development",
         bannertitle: "Elevate Your Mobile Presence with Android and iOS Development!",
         description: "At Whizfortune, we're your trusted partner for creating exceptional mobile experiences. Our expert Android and iOS development teams are equipped with the latest tools and technologies to turn your app ideas into reality. Whether you're targeting the Android or iOS audience, we've got you covered. From concept to deployment, we ensure top-notch design, flawless functionality, and user-friendly interfaces. Join hands with Whizfortune and let's create mobile apps that stand out in today's competitive market.",
@@ -729,7 +729,7 @@ const servicesData = [
       ,
       {
         id: 5, // Ensure that the ID is unique.
-        icon: "flaticon-ai", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/ai2.png", // Replace with your desired icon.
         title: "Artificial Intelligence",
         bannertitle: "Unlock the Power of AI for Smarter Business Solutions!",
         description: "At Whizfortune, we harness the capabilities of Artificial Intelligence to drive innovation and efficiency in your business. Our AI solutions are designed to transform data into actionable insights, automate repetitive tasks, and enhance decision-making. Whether you're looking to implement AI-powered chatbots, predictive analytics, or machine learning algorithms, our expert team has you covered. Join hands with Whizfortune and embrace the future of intelligent technology to gain a competitive edge in your industry.",      
@@ -871,7 +871,7 @@ const servicesData = [
       },
       {
         id: 6, // Ensure that the ID is unique.
-        icon: "flaticon-devops", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/devops.png", // Replace with your desired icon.
         title: "DevOps",
         bannertitle: "Accelerate Your Development Lifecycle with DevOps Excellence!",
         description: "Whizfortune brings you the power of DevOps to streamline your software development and deployment processes. Our DevOps experts help you achieve faster releases, higher quality software, and improved collaboration between development and operations teams. From automating manual tasks to optimizing workflows, we deliver DevOps solutions that drive efficiency and innovation. Partner with Whizfortune to embrace DevOps practices and propel your business toward continuous improvement and success.",      
@@ -1015,7 +1015,7 @@ const servicesData = [
       },
       {
         id: 7, // Ensure that the ID is unique.
-        icon: "flaticon-web-development", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/webdev.png", // Replace with your desired icon.
         title: "Web Development",
         bannertitle: "Crafting Exceptional Web Experiences for Your Digital Journey!",
         description: "Whizfortune is your go-to partner for web development that makes an impact. Our team of skilled developers specializes in creating stunning and high-performing websites tailored to your unique needs. Whether you're launching a new site or revamping an existing one, we bring your vision to life with cutting-edge technologies and user-centric design. Trust us to deliver responsive, feature-rich, and SEO-friendly websites that drive engagement and conversions. Join hands with Whizfortune and embark on a journey of web excellence.",      
@@ -1164,7 +1164,7 @@ const servicesData = [
       },
       {
         id: 8, // Ensure that the ID is unique.
-        icon: "flaticon-digital-marketing", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/marketing.png", // Replace with your desired icon.
         title: "Digital Marketing",
         bannertitle: "Elevate Your Brand with Data-Driven Digital Marketing Solutions!",
         description: "At Whizfortune, we empower businesses with strategic digital marketing that delivers results. Our expert digital marketers leverage data insights to craft tailored strategies that drive brand awareness, engagement, and conversions. From search engine optimization (SEO) to pay-per-click (PPC) advertising, we cover the entire digital landscape. Partner with us to harness the power of social media, content marketing, and email campaigns to reach your target audience effectively. Let's elevate your brand together and ensure your online presence stands out in the digital world.",      
@@ -1312,7 +1312,7 @@ const servicesData = [
       },
       {
         id: 9, // Ensure that the ID is unique.
-        icon: "flaticon", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/seo.png", // Replace with your desired icon.
         title: "Search Engine Optimization (SEO)",
         bannertitle: "Boost Your Online Visibility with Expert SEO Services!",
         description: "Whizfortune is your trusted partner for SEO strategies that drive organic growth. Our dedicated team of SEO experts understands the complexities of search engine algorithms and optimizes your online presence to rank higher in search results. From on-page optimization to content strategy and link building, we cover all aspects of SEO. Watch your website's traffic soar and your brand visibility expand as we work diligently to improve your search engine rankings. Join hands with Whizfortune to unlock the full potential of your online presence through strategic SEO.",      
@@ -1427,7 +1427,7 @@ const servicesData = [
       ,
       {
         id: 10, // Ensure that the ID is unique.
-        icon: "flaticon-cybersecurity", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/security.png", // Replace with your desired icon.
         title: "Cybersecurity Solutions",
         bannertitle: "Protect Your Digital Assets with Robust Cybersecurity Solutions!",
         description: "Whizfortune is your shield in the digital realm, offering cutting-edge cybersecurity solutions to safeguard your business from evolving threats. Our expert cybersecurity team employs advanced technologies and proactive strategies to protect your sensitive data, networks, and applications. From threat detection to incident response, we ensure the utmost security for your digital assets. Partner with Whizfortune to fortify your defenses, achieve compliance, and enjoy peace of mind knowing that your business is protected from cyber threats.",      
@@ -1545,7 +1545,7 @@ const servicesData = [
       ,
       {
         id: 11, // Ensure that the ID is unique.
-        icon: "flaticon-maintenance-support", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/maintenance.png", // Replace with your desired icon.
         title: "Maintenance and Support Services",
         bannertitle: "Reliable Maintenance and Support to Keep Your Business Running Smoothly!",
         description: "Whizfortune understands that your business needs dependable maintenance and support services to ensure uninterrupted operations. Our dedicated support team is at your service to resolve issues, perform updates, and maintain your digital infrastructure. With proactive monitoring and round-the-clock assistance, we keep your systems running smoothly, allowing you to focus on core business activities. Partner with Whizfortune for peace of mind and a hassle-free maintenance experience that ensures your business stays on the path to success.",      
@@ -1669,7 +1669,7 @@ const servicesData = [
       ,
       {
         id: 12, // Ensure that the ID is unique.
-        icon: "flaticon-design", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/ui.png", // Replace with your desired icon.
         title: "UI/UX and Graphics Design",
         bannertitle: "Elevate User Experiences with Exceptional UI/UX and Graphic Design!",
         description: "Whizfortune is your creative partner for crafting stunning user interfaces and graphic designs that captivate and engage your audience. Our skilled designers bring innovation and aesthetics to every project, ensuring an exceptional user experience. From intuitive app interfaces to eye-catching branding materials, we cover it all. Trust us to enhance your brand identity and deliver visual experiences that leave a lasting impression. Partner with Whizfortune to take your design aesthetics to the next level and make a memorable impact.",      
@@ -1794,7 +1794,7 @@ const servicesData = [
       ,
       {
         id: 13, // Ensure that the ID is unique.
-        icon: "flaticon-testing", // Replace with your desired icon.
+        icon: "/assets/img/icon/service-icons/coding.png", // Replace with your desired icon.
         title: "QA and Testing Services",
         bannertitle: "Ensure Flawless Performance with Rigorous QA and Testing!",
         description: "At Whizfortune, we understand that quality assurance and testing are integral to delivering reliable and high-performance software. Our dedicated QA and testing team employs industry-leading practices to ensure your applications function flawlessly. From functionality testing to performance testing and security testing, we leave no stone unturned. Count on us to identify and rectify issues before they impact your users. Partner with Whizfortune for comprehensive testing services that guarantee your software meets the highest quality standards.",      
