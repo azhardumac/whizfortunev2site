@@ -73,11 +73,11 @@ const PortfolioDetails = () => {
                   </div>
                 </div>
               </div>
-              <p>Whizfortune Technologies is a dynamic digital solutions provider known for innovation and excellence. Our team of experts specializes in web design, custom software development, mobile apps, digital marketing, and more. We're passionate about creating unique and user-friendly digital experiences that exceed client expectations.
+              <p>Whizfortune Technologies is a dynamic digital solutions provider known for innovation and excellence. Our team of experts specializes in web design, custom software development, mobile apps, digital marketing, and more. We&apos;re passionate about creating unique and user-friendly digital experiences that exceed client expectations.
               <br/><br/>
-At Whizfortune, we're committed to staying ahead of industry trends and delivering results that drive success. We believe in tailoring solutions to meet your unique needs. Whether you're a startup or an established enterprise, we're ready to be your digital partner.
+At Whizfortune, we&apos;re committed to staying ahead of industry trends and delivering results that drive success. We believe in tailoring solutions to meet your unique needs. Whether you&apos;re a startup or an established enterprise, we&apos;re ready to be your digital partner.
 <br/><br/>
-Let's collaborate on your next project. Contact us at <a href="mailto:contact@whizfortune.com" className='custom-link'>contact@whizfortune.com</a> and discover how we can elevate your digital presence.</p>
+Let&apos;s collaborate on your next project. Contact us at <a href="mailto:contact@whizfortune.com" className='custom-link'>contact@whizfortune.com</a> and discover how we can elevate your digital presence.</p>
               {/* <div className="project-details-nav mt-55">
                 <div className="details-nav-item">
                   <Link href="/portfolio-details">
