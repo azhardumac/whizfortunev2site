@@ -6,10 +6,10 @@ const CounterTwo = () => {
   
   return (
     <>
-      <section className="tpfact-area box-plr-85">
+      <section className="tpfact-area box-plr-950 ">
         <div className="container-fluid">
           <div className="tpfact-wrapper grey-bg">
-            <div className="tpfact-wrapper pb-90">
+            <div className="tpfact-wrapper pb-50 pt-50">
               <div className="container">
                 <div className="row">
                   {

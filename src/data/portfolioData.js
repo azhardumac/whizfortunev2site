@@ -1,36 +1,100 @@
 
 const portfolioData = [
+  {
+    id: 1,
+    img: 'assets/img/project/iameasyhomes/mobile.png',
+    img3: 'assets/img/project/3/project-1.jpg',
+    img4: 'assets/img/project/iameasyhomes/mobile.png',
+    category: 'Web Design',
+    industry: 'Industrial Flooring and Civil Contracts',
+    title: 'Website for Industrial Flooring and Civil Contracts',
+    client: 'VDF Contractors',
+    aboutProject: [
+      {
+        title: 'Project Objectives',
+        content: 'Our primary objectives were to create a user-friendly website that showcases VDF Contractors\' expertise in industrial flooring and civil contracts, provides a platform to highlight their projects, and effectively communicates their commitment to delivering high-quality solutions.'
+      },
+      {
+        title: 'Key Features',
+        content: 'The website features a visually engaging design with dedicated sections for project showcases. It includes a project gallery, informative content, and easy-to-use contact forms, making it convenient for potential clients to explore VDF Contractors\' services.'
+      },
+      {
+        title: 'Technologies Used',
+        content: 'For front-end development, we leveraged WordPress, customized with HTML5, CSS3, JavaScript, and React components to create an interactive and responsive user interface. WordPress plugins and themes were adapted to integrate Node.js, Express, and MongoDB functionalities. We also ensured responsive design and SEO optimization for an exceptional user experience.'
+      },
+      {
+        title: 'Project Results',
+        content: 'The Website for Industrial Flooring and Civil Contracts, powered by WordPress, has significantly enhanced VDF Contractors\' online presence. It effectively showcases their projects and services, attracting potential clients and increasing user engagement. The platform has been well-received, leading to positive feedback and inquiries from prospective clients.'
+      }
+    ]
+  }
+  
+  ,
     {
-        id: 1,
-        img: 'assets/img/project/2/project-1.jpg',
-        img3:'assets/img/project/3/project-1.jpg',
-        img4:'assets/img/project/4/project-1.jpg',
-        category:'WEB DESIGN',
-        title: 'The Home of the Future could bebes',
+    id: 2,
+    img: 'assets/img/project/2/project-2.jpg',
+    img3: 'assets/img/project/3/project-2.jpg',
+    img4: 'assets/img/project/4/project-2.jpg',
+    category: 'Web Design',
+    industry: 'Automotive',
+    title: 'Xpert Car Care Website',
+    client: 'Xpert Car Care',
+    aboutProject: [
+      {
+        title: 'Project Objectives',
+        content: 'Our primary objectives were to create a user-friendly website that highlights Xpert Car Care\'s services, showcases their expertise in the automotive industry, and provides a seamless user experience for visitors.',
       },
       {
-        id: 2,
-        img: 'assets/img/project/2/project-2.jpg',
-        img3:'assets/img/project/3/project-2.jpg',
-        img4:'assets/img/project/4/project-2.jpg',
-        category:'WEB DEVELOPMENT',
-        title: 'A big ticket gone to be an interesting'
+        title: 'Key Features',
+        content: 'The website features a responsive design, making it accessible on all devices. We integrated an appointment booking system, service catalog, and a blog section to engage and educate visitors. We focused on creating a visually appealing design with high-quality images and smooth navigation.',
       },
       {
-        id: 3,
-        img: 'assets/img/project/2/project-3.jpg',
-        img3:'assets/img/project/3/project-3.jpg',
-        img4:'assets/img/project/4/project-3.jpg',
-        category:'UI UX DESIGN',
-        title: 'What is the Difference between'
+        title: 'Technologies Used',
+        content: 'The website was built on the WordPress platform, which offers flexibility and ease of content management. We used HTML, CSS, and JavaScript for front-end development. Plugins and custom themes were employed to enhance functionality and aesthetics.',
       },
+      {
+        title: 'Project Results',
+        content: 'The Xpert Car Care website has successfully improved their online presence. It has attracted new customers and received positive feedback for its user-friendly design. The appointment booking system has streamlined their operations and increased customer inquiries.',
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: 'assets/img/project/iameasyhomes/front.png',
+    img3: 'assets/img/project/iameasyhomes/mobile.png',
+    img4: 'assets/img/project/iameasyhomes/laptop2.png',
+    category: 'Web Design',
+    industry: 'Real Estate',
+    title: 'Real Estate Agency Website',
+    client: 'Easy Homes',
+    aboutProject: [
+      {
+        title: 'Project Objectives',
+        content: 'Our main objectives were to develop a responsive website that effectively represents Easy Homes as a premier real estate agency. The website needed to provide an intuitive property search, offer property listings, and convey the essence of their brand.'
+      },
+      {
+        title: 'Key Features',
+        content: 'The website boasts a modern, user-friendly design with a property search feature, property listings, and interactive maps to help users find their dream homes. It also includes a blog section for real estate tips and insights, as well as a contact form for inquiries.'
+      },
+      {
+        title: 'Technologies Used',
+        content: 'We employed WordPress for easy content management, enhancing it with HTML5, CSS3, and JavaScript for a seamless user experience. Custom themes and plugins were integrated to optimize site performance. Additionally, we focused on responsive design and SEO to ensure high visibility.'
+      },
+      {
+        title: 'Project Results',
+        content: 'The Real Estate Agency Website for Easy Homes has significantly boosted their online presence. It provides a convenient platform for property seekers and has garnered positive feedback. The property search feature has facilitated property discovery and engagement, leading to successful client connections.'
+      }
+    ]
+  }
+  ,
       {
         id: 4,
         img: 'assets/img/project/2/project-4.jpg',
         img3:'assets/img/project/3/project-4.jpg',
         img4:'assets/img/project/4/project-4.jpg',
         category:'GRAPHIC DESIGN',
-        title: 'A big ticket gone to be an interesting'
+        title: 'A big ticket gone to be an interesting',
+        client:'Whizfortune Client 4',
       },
       {
         id: 5,
@@ -38,7 +102,8 @@ const portfolioData = [
         img3:'assets/img/project/3/project-5.jpg',
         img4:'assets/img/project/4/project-5.jpg',
         category:'APP DESIGN',
-        title: 'Why uou love nerox that much'
+        title: 'Why uou love nerox that much',
+        client:'Whizfortune Client 5',
       },
       {
         id: 6,
@@ -46,7 +111,8 @@ const portfolioData = [
         img3:'assets/img/project/3/project-6.jpg',
         img4:'assets/img/project/4/project-6.jpg',
         category:'WEB DESIGN',
-        title: 'The world is more beautiful you think'
+        title: 'The world is more beautiful you think',
+        client:'Whizfortune Client 6',
       },
       {
         id: 7,

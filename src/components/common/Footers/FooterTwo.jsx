@@ -26,8 +26,6 @@ const FooterTwo = () => {
                     <ul>
                       <li><a href="#">Contact us</a></li>
                       <li><a href="#">Help & About us</a></li>
-                      <li><a href="#">Shipping & Returns</a></li>
-                      <li><a href="#">Refund Policy</a></li>
                     </ul>
                   </div>
                   <h5 className="footer-xs-title mb-20">Useful links</h5>
@@ -44,14 +42,14 @@ const FooterTwo = () => {
                   <h5 className="footer-xs-title mb-20">Support service</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="#">Orders</a></li>
-                      <li><a href="#">Downloads</a></li>
-                      <li><a href="#">Shipping & Returns</a></li>
-                      <li><a href="#">Addresses</a></li>
+                      <li><a href="#">Find Us</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Schedule Consultation</a></li>
+                      {/* <li><a href="#">Addresses</a></li>
                       <li><a href="#">Account details</a></li>
                       <li><a href="#">Logout</a></li>
                       <li><a href="#">Lost password</a></li>
-                      <li><a href="#">Orders</a></li>
+                      <li><a href="#">Orders</a></li> */}
                     </ul>
                   </div>
                 </div>

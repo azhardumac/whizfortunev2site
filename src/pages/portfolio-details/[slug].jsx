@@ -40,17 +40,8 @@ const PortfolioDetails = () => {
                 </div>
                 <div className="aboutme-feature-list mt-25">
                   <ul>
-                    <li><p>Client:<a href="#"> Rasalina De Willam (USA)</a></p></li>
-                    <li><p>Date:<a href="#"> March 21, 2020</a></p></li>
-                    <li><p>Category:<a href="#"> Technology</a></p></li>
-                    <li><p>Category:</p>
-                      <div className="aboutme-social ml-10">
-                        <a href="#"><i className="fab fa-facebook-f"></i></a>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
-                        <a href="#"><i className="fab fa-twitter"></i></a>
-                        <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                      </div>
-                    </li>
+                    <li><p>Client:<a href="#"> {portfolioItem.client}</a></p></li>
+                    <li><p>Category:<a href="#"> {portfolioItem.category}</a></p></li>
                   </ul>
                 </div>
               </div>
@@ -59,27 +50,35 @@ const PortfolioDetails = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="project-details-content">
-                <h4 className="tab-pane-title mb-30"><b>Something about</b> project  Case Studies</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
+                {portfolioItem.aboutProject && Array.isArray(portfolioItem.aboutProject) ? (
+                  portfolioItem.aboutProject.map((point, index) => (
+                    <div key={index}>
+                      <h4 className="tab-pane-title mb-30">{point.title}</h4>
+                      <p>{point.content}</p>
+                    </div>
+                  ))
+                ) : (
+                  <p>No project details available.</p>
+                )}
               </div>
               <div className="row mt-45">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src="/assets/img/project/project-d2.jpg" alt="project img" />
+                    <img className="b-radius" src={portfolioItem.img4} alt="project ig" />
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src="/assets/img/project/project-d3.jpg" alt="project img" />
+                    <img className="b-radius" src={portfolioItem.img3} alt="project img" />
                   </div>
                 </div>
               </div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-              <div className="project-details-nav mt-55">
+              <p>Whizfortune Technologies is a dynamic digital solutions provider known for innovation and excellence. Our team of experts specializes in web design, custom software development, mobile apps, digital marketing, and more. We're passionate about creating unique and user-friendly digital experiences that exceed client expectations.
+              <br/><br/>
+At Whizfortune, we're committed to staying ahead of industry trends and delivering results that drive success. We believe in tailoring solutions to meet your unique needs. Whether you're a startup or an established enterprise, we're ready to be your digital partner.
+<br/><br/>
+Let's collaborate on your next project. Contact us at <a href="mailto:contact@whizfortune.com" className='custom-link'>contact@whizfortune.com</a> and discover how we can elevate your digital presence.</p>
+              {/* <div className="project-details-nav mt-55">
                 <div className="details-nav-item">
                   <Link href="/portfolio-details">
                     <a><i className="fas fa-long-arrow-left"></i> Back</a>
@@ -90,13 +89,13 @@ const PortfolioDetails = () => {
                     <a>Next <i className="fas fa-long-arrow-right"></i></a>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
 
-      <FooterTwo/>
+      <FooterTwo />
     </>
   );
 };

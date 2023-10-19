@@ -24,7 +24,7 @@ const counterData = [
     id: 4,
     icon: 'flaticon-coffee',
     iconImg:'assets/img/icon/fact/fact-icon-4.png',
-    number: 208,
+    number: 10000,
     title: 'Cup of Coffee',
     border:false,
   },

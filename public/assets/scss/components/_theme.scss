@@ -874,7 +874,7 @@ input[type="color"] {
   
   .custom-technology-grid h2 {
 	margin: 0; /* Remove any default margin */
-	font-size: 55px; /* Adjust the font size as needed */
+	font-size: var(--tp-fz-h2); /* Adjust the font size as needed */
 	margin-bottom: 20px; /* Add spacing between the title and icons */
 	display: block; /* Make the h2 title block-level element */
 	text-align: center;
@@ -910,6 +910,8 @@ input[type="color"] {
   .custom-technology-logo img {
 	width: 100px; /* Adjust the image size as needed */
 	height: auto;
+	// filter: brightness(0%);
+
   }
   
   .custom-technology-logo {
@@ -917,6 +919,7 @@ input[type="color"] {
 	width: 100px;
 	height: auto;
 	margin: 0 auto; /* Horizontally center the logo */
+	
   }
   
   .custom-technology-name {
@@ -1010,9 +1013,11 @@ input[type="color"] {
 
 
 
-  
 
 
+.custom-link{
+	color: var(--tp-theme-1);
+}
 html, body {
 	overflow-x: hidden;
   }

@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Masonry from 'react-responsive-masonry';
 import { motion } from 'framer-motion';
 import technologyData from '../../data/technologyData';
 
 const TechnologyGrid = () => {
-  const [active, setActive] = useState('Frontend');
+  const [active, setActive] = useState('Mobile');
   const [filteredTechnologies, setFilteredTechnologies] = useState([]);
 
   // Initialize filteredTechnologies with the full technologyData array
@@ -27,22 +26,27 @@ const TechnologyGrid = () => {
   };
 
   return (
-    <div className="custom-technology-grid mt-50 mb-150">
-      <h2 className='custom-technology-item mb-20'>Technologies we work with.</h2>
+    <div className="custom-technology-grid mt-115 mb-150">
+     <div> <span className="tp-sub-title-2 mb-15">Our Skills</span>
+      <h2 className="custom-technology-item mb-20 tp-title">Technologies we work with.</h2>
+      
+              
+              
       {/* Filter buttons */}
       <div className="custom-filter-buttons mt-20">
         {/* Map over categories and create filter buttons */}
         {Object.keys(technologyData).map((category) => (
           <button
             key={category}
-            className={`custom-filter-button ${active === category && 'custom-active'} mb-30`}
+            className={`custom-filter-button ${active === category && 'custom-active'} mb-10`}
             onClick={() => handleFilterItems(category)}
           >
             {category}
           </button>
         ))}
       </div>
-
+      </div>
+  
       {/* Technology logos */}
       <div className="custom-technology-items">
         {filteredTechnologies.map((item) => (

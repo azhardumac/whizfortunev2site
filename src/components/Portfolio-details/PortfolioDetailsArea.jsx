@@ -18,7 +18,7 @@ const PortfolioDetailsArea = () => {
                 </div>
                 <div className="aboutme-feature-list mt-25">
                   <ul>
-                    <li><p>Client:<a href="#"> Rasalina De Willam (USA)</a></p></li>
+                    <li><p>Client:<a href="#"> Azhar (USA)</a></p></li>
                     <li><p>Date:<a href="#"> March 21, 2020</a></p></li>
                     <li><p>Category:<a href="#"> Technology</a></p></li>
                     <li><p>Category:</p>

@@ -46,7 +46,7 @@ const PortfolioTwo = () => {
 
             <div className="col-xl-12">
               <div className="tpproject-btn mt-40 text-center">
-                <Link href="/portfolio">
+                <Link href="/portfolio-five">
                   <a className="tp-solid-btn">View All Project</a>
                 </Link>
               </div>

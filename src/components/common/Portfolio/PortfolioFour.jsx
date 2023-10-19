@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import portfolioData from '../../../data/portfolioData';
 
 
-const portfolioItems = portfolioData.slice(91, 103);
+const portfolioItems = portfolioData.slice(0, 13);
 const uniquePortfolioItems = portfolioItems.filter(
   (arr, index, self) =>
     index === self.findIndex((t) => t.img === arr.img && t.State === arr.State)
