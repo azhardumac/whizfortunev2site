@@ -1011,8 +1011,16 @@ input[type="color"] {
 
 
 
+.custom-portfolio-div{
+	display: flex !important;
+    justify-content: center;
+	align-items: center;
+}
+.mx-height{
+	max-width: 35% !important;
+	
 
-
+}
 
 
 .custom-link{

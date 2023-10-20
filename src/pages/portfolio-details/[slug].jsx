@@ -21,17 +21,12 @@ const PortfolioDetails = () => {
   }, [id])
   return (
     <>
-      <SEO pageTitle="Profile Details" />
+      <SEO pageTitle="Project Details" />
       <Header />
-      <div className="project-details-area pt-140 pb-130">
+      <div className="project-details-area pt-140 pb-130 custom-portfolio-div">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xl-5 col-lg-6">
-              <div className="aboutme-image mb-40">
-                <img className="b-radius" src="/assets/img/project/project-d.jpg" alt="project img" />
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-6">
+          <div className="col-xl-7 col-lg-6">
               <div className="aboutme-wrapper mb-40">
                 <div className="aboutme-content">
                   <h3 className="tpabout-xd-title mb-50">
@@ -46,6 +41,12 @@ const PortfolioDetails = () => {
                 </div>
               </div>
             </div>
+            <div className="col-xl-5 col-lg-6">
+              <div className="aboutme-image mb-40">
+                <img className="b-radius" src={portfolioItem.img2} alt="project img" />
+              </div>
+            </div>
+          
           </div>
           <div className="row">
             <div className="col-xl-12">
@@ -61,15 +62,15 @@ const PortfolioDetails = () => {
                   <p>No project details available.</p>
                 )}
               </div>
-              <div className="row mt-45">
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src={portfolioItem.img4} alt="project ig" />
+              <div className="row mt-45 custom-portfolio-div">
+                <div className="col-xl-6 col-lg-6 col-md-6 custom-portfolio-div">
+                  <div className="project-details-dimage w-img mb-45 mx-height">
+                    <img className="b-radius" src={portfolioItem.img3} alt="project ig" />
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-6">
+                <div className="col-xl-6 col-lg-6 col-md-6 custom-portfolio-div">
                   <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src={portfolioItem.img3} alt="project img" />
+                    <img className="b-radius" src={portfolioItem.img4} alt="project img" />
                   </div>
                 </div>
               </div>
