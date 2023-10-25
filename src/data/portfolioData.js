@@ -88,894 +88,241 @@ const portfolioData = [
     ]
   }
   ,
+  {
+    id: 4,
+    img: '/assets/img/project/aesm/1.png',
+    img2:'/assets/img/project/aesm/1desktop.png',
+    img3: '/assets/img/project/aesm/1mobile.png',
+    img4: '/assets/img/project/aesm/1laptop.png',
+    category: 'Web Design',
+    industry: 'Merchant Navy and Recruitment Training',
+    title: 'Website for Merchant Navy and Recruitment Training',
+    client: 'AESM',
+    aboutProject: [
       {
-        id: 4,
-        img: 'assets/img/project/2/project-4.jpg',
-        img3:'assets/img/project/3/project-4.jpg',
-        img4:'assets/img/project/4/project-4.jpg',
-        category:'GRAPHIC DESIGN',
-        title: 'A big ticket gone to be an interesting',
-        client:'Whizfortune Client 4',
+        title: 'Project Objectives',
+        content: 'Our primary objectives were to design and develop a website that effectively represents AESM as a prominent merchant navy and recruitment training provider. The website needed to provide comprehensive information about their courses, career opportunities, and facilitate the recruitment process.'
       },
+      {
+        title: 'Key Features',
+        content: 'The website features a clean and informative design with dedicated sections for training courses, career guidance, and a seamless recruitment process. It includes detailed course descriptions, application forms, and a blog section to keep visitors informed about industry updates.'
+      },
+      {
+        title: 'Technologies Used',
+        content: 'We built the website using WordPress, enabling easy content updates and management. Customized HTML, CSS, and JavaScript elements were integrated for responsive design and optimal user experience. WordPress plugins and themes were adapted to enhance functionality and SEO.'
+      },
+      {
+        title: 'Project Results',
+        content: 'The Website for Merchant Navy and Recruitment Training has significantly improved AESM\'s online presence. It serves as an informative hub for aspiring candidates and offers a streamlined recruitment process. AESM has received positive feedback and increased inquiries, making them a go-to choice for merchant navy training.'
+      }
+    ]
+  }
+  ,
       {
         id: 5,
-        img: 'assets/img/project/2/project-5.jpg',
-        img3:'assets/img/project/3/project-5.jpg',
-        img4:'assets/img/project/4/project-5.jpg',
-        category:'APP DESIGN',
-        title: 'Why uou love nerox that much',
-        client:'Whizfortune Client 5',
-      },
+        img: '/assets/img/project/alsana/2.png',
+        img2: '/assets/img/project/alsana/2desktop.png',
+        img3: '/assets/img/project/alsana/2mobile.png',
+        img4: '/assets/img/project/alsana/2laptop.png',
+        category: 'Web Design',
+  industry: 'Merchant Navy and Recruitment Training',
+  title: 'Marine Training & Recruitment Website',
+  client: 'Al Sana Marine Management',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'Our primary objectives were to create a dynamic website that showcases Al Sana Marine Management as a leading provider of marine training and recruitment services. The website aimed to provide essential information about training programs, career prospects, and a seamless application process.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The website boasts a contemporary design with dedicated sections for marine training courses, career paths, and an efficient application portal. It includes detailed course outlines, application forms, and an industry blog to keep visitors informed about the latest maritime developments.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'We chose WordPress as the foundation for easy content management and updates. HTML, CSS, and JavaScript were tailored for responsive design and an intuitive user interface. Customized themes and plugins were employed to enhance functionality, making the website SEO-friendly.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The Marine Training & Recruitment Website has significantly elevated Al Sana Marine Management\'s online presence. It acts as a hub for prospective candidates, streamlining the recruitment process and offering informative content. Al Sana Marine Management has experienced an increase in inquiries and applications, solidifying their position as a leading maritime training provider.'
+    }
+  ]
+},
       {
         id: 6,
-        img: 'assets/img/project/2/project-6.jpg',
-        img3:'assets/img/project/3/project-6.jpg',
-        img4:'assets/img/project/4/project-6.jpg',
-        category:'WEB DESIGN',
-        title: 'The world is more beautiful you think',
-        client:'Whizfortune Client 6',
+        img: '/assets/img/project/amz/7.png',
+        img2: '/assets/img/project/amz/7desktop.png',
+        img3: '/assets/img/project/amz/7mobile.png',
+        img4: '/assets/img/project/amz/7laptop.png',
+        category: 'Web Design',
+        industry: 'Interior Design',
+        title: 'Bespoke Interior Design Website',
+        client: 'AMZ Interior',
+        aboutProject: [
+          {
+            title: 'Project Objectives',
+            content: 'Our primary objectives were to create a visually stunning website that showcases AMZ Interior\'s expertise in interior design. The website needed to reflect their commitment to delivering bespoke, creative, and functional interior solutions to their clients.'
+          },
+          {
+            title: 'Key Features',
+            content: 'The website features a gallery of completed interior design projects, allowing visitors to explore AMZ Interior\'s design aesthetics. It provides information on services offered, client testimonials, and a blog to inspire interior enthusiasts. A contact form ensures potential clients can easily get in touch.'
+          },
+          {
+            title: 'Technologies Used',
+            content: 'To build the website, we utilized WordPress for content management, enabling easy updates and additions to the portfolio. HTML, CSS, and JavaScript were tailored to create a responsive, visually appealing design. Custom themes and plugins enhanced the website\'s functionality and SEO.'
+          },
+          {
+            title: 'Project Results',
+            content: 'The Bespoke Interior Design Website has effectively positioned AMZ Interior as a go-to choice for interior design solutions. It has attracted a diverse clientele seeking expert interior design services. The gallery has been instrumental in showcasing their design expertise, and the website has contributed to the growth of their business.'
+          }
+        ]
       },
       {
         id: 7,
-        img: 'assets/img/project/2/project-7.jpg',
-        category:'WEB DEVELOPMENT',
-        title: 'The black bear coming soon'
-      },
+        img: '/assets/img/project/healrejuvenate/12.png',
+        img2: '/assets/img/project/healrejuvenate/12desktop.png',
+        img3: '/assets/img/project/healrejuvenate/12mobile.png',
+        img4: '/assets/img/project/healrejuvenate/12laptop.png',
+        category: 'Web Design',
+  industry: 'Holistic Healing & Acupuncture',
+  title: 'Holistic Healing Center Website',
+  client: 'Heal and Rejuvenate',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'Our main goals were to create a website that represents the holistic approach and advanced acupuncture services offered by Heal and Rejuvenate. The website needed to be a calming, informative, and user-friendly space for visitors to explore alternative healing methods.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The website showcases the center\'s services, including acupuncture, holistic healing, and wellness programs. It offers insights into the benefits of these therapies and includes a blog section for sharing healing insights. A booking system allows clients to schedule appointments easily.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'To build the website, we utilized WordPress, a flexible platform that supports content management and updates. We employed HTML, CSS, and JavaScript for custom design and functionality. Plugins and themes were customized to ensure a serene and informative online presence.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The Holistic Healing Center Website has enabled Heal and Rejuvenate to reach a wider audience seeking alternative healing and acupuncture services. It has become a valuable resource for individuals exploring holistic health options. The booking system has simplified the appointment process, contributing to an increase in clients.'
+    }
+  ]
+},
       {
         id: 8,
-        img: 'assets/img/project/2/project-8.jpg',
-        category:'UI UX DESIGN',
-        title: 'A brown fox jump over the lazy'
-      },
+        img: '/assets/img/project/houseofnewbies/5.png',
+        img2: '/assets/img/project/houseofnewbies/5desktop.png',
+        img3: '/assets/img/project/houseofnewbies/5mobile.png',
+        img4: '/assets/img/project/houseofnewbies/5laptop.png',
+        category: 'Web Design',
+  industry: 'E-commerce',
+  title: 'E-commerce Website for House of Newbies',
+  client: 'House of Newbies',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'Our primary objectives were to create a robust e-commerce platform for House of Newbies, a retailer specializing in trendy clothing and accessories for newcomers to the fashion scene. The website needed to provide a seamless shopping experience for customers.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The e-commerce website includes a user-friendly interface with easy navigation, product search, and categorization. It integrates the WooCommerce plugin for product listings, shopping cart, and secure payment processing. We implemented a responsive design to ensure accessibility on all devices.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'The website is powered by WordPress, a versatile platform that facilitates content management and e-commerce capabilities. We leveraged WooCommerce for product management, order processing, and inventory control. Custom CSS and JavaScript enhancements were implemented for a unique design.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The E-commerce Website for House of Newbies has revolutionized their online presence. It has attracted a wider customer base, increased sales, and improved customer satisfaction. The user-friendly design and secure checkout process have contributed to a successful online retail operation.'
+    }
+  ]
+},
       {
         id: 9,
-        img: 'assets/img/project/2/project-9.jpg',
-        category:'APP DESIGN',
-        title: 'Smart Phone is not available the',
-      },
+        img: '/assets/img/project/karnatakakudo/3.png',
+        img2: '/assets/img/project/karnatakakudo/3desktop.png',
+        img3: '/assets/img/project/karnatakakudo/3mobile.png',
+        img4: '/assets/img/project/karnatakakudo/3laptop.png',
+        category: 'Web Design',
+  industry: 'Education',
+  title: 'Kudo Coaching Center Website',
+  client: 'Karnataka Kudo',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'The primary objectives of this project were to create an informative and engaging website for Karnataka Kudo, a prominent coaching center. The website needed to provide comprehensive information about their coaching services, schedules, and facilitate student inquiries.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The website features a user-friendly interface with easy navigation. It showcases detailed information about the coaching programs, instructors, and schedules. We integrated contact forms to allow prospective students to inquire about courses. The responsive design ensures accessibility on various devices.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'The website is developed on the WordPress platform, which is known for its content management capabilities. Custom themes and plugins were employed to create a unique design and add functionality. Additionally, we utilized HTML, CSS, and JavaScript for front-end development.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The Kudo Coaching Center Website has significantly improved the online presence of Karnataka Kudo. It has attracted prospective students, increased inquiries, and improved the accessibility of coaching information. The user-friendly design has made it easier for students to explore their coaching options.'
+    }
+  ]
+},
 
-   // portfolio five 
       {
         id: 10,
-        img: 'assets/img/project/project-1.jpg',
-        category:'WEB DESIGN',
-        title: 'Minimal Product Showcse Design',
-      },
+        img: '/assets/img/project/xma/4.png',
+        img2: '/assets/img/project/xma/4desktop.png',
+        img3: '/assets/img/project/xma/4mobile.png',
+        img4: '/assets/img/project/xma/4laptop.png',
+        category: 'Web Design',
+  industry: 'Fitness and Sports',
+  title: 'XMA Academy Website',
+  client: 'Xtreme Martial Arts (XMA) Academy',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'The primary objectives for this project were to create an engaging and informative website for the Xtreme Martial Arts (XMA) Academy. The website needed to showcase the academy’s martial arts programs, instructors, class schedules, and facilitate inquiries from prospective students.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The website is designed with a user-friendly layout and intuitive navigation. It provides detailed information about martial arts programs, class schedules, instructor profiles, and allows prospective students to inquire about classes. The responsive design ensures that the site is accessible on various devices.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'The XMA Academy website is built on the WordPress platform, known for its content management capabilities. Custom themes and plugins were employed to create a unique design and enhance functionality. Front-end development included the use of HTML, CSS, and JavaScript.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The XMA Academy website has significantly improved the online presence of Xtreme Martial Arts Academy. It has attracted prospective students, increased inquiries, and made it easier for students to explore their martial arts options. The user-friendly design encourages engagement and interaction.'
+    }
+  ]
+},
       {
         id: 11,
-        img: 'assets/img/project/project-3.jpg',
-        category:'WEBSITE DESIGN',
-        title: 'Minimal Product Showcse Design',
-      },
-      {
-        id: 12,
-        img: 'assets/img/project/project-2.jpg',
-        category:'WEB DESIGN',
-        title: 'Soundbox Branding Design',
-      },
-      {
-        id: 13,
-        img: 'assets/img/project/project-4.jpg',
-        category:'WEBSITE DESIGN',
-        title: 'Ecommerce Product Landing',
-      },
-      {
-        id: 14,
-        img: 'assets/img/project/project-2.jpg',
-        category:'APP DESIGN',
-        title: 'Soundbox Branding Design',
-      },
-      {
-        id: 15,
-        img: 'assets/img/project/project-4.jpg',
-        category:'APP DESIGN',
-        title: 'Ecommerce Product Landing',
-      },
-      {
-        id: 16,
-        img: 'assets/img/project/project-2.jpg',
-        category:'LANDING PAGE',
-        title: 'Soundbox Branding Design',
-      },
-      {
-        id: 17,
-        img: 'assets/img/project/project-3.jpg',
-        category:'LANDING PAGE',
-        title: 'Barber Machine Branding Deisgn',
-      },
-      {
-        id: 18,
-        img: 'assets/img/project/project-1.jpg',
-        category:'BRANDING DESIGN',
-        title: 'Minimal Product Showcse Design',
-      },
-      {
-        id: 19,
-        img: 'assets/img/project/project-3.jpg',
-        category:'BRANDING DESIGN',
-        title: 'Barber Machine Branding Deisgn',
-      },
+        img: '/assets/img/project/yashprofile/8.png',
+        img2: '/assets/img/project/yashprofile/8desktop.png',
+        img3: '/assets/img/project/yashprofile/8mobile.png',
+        img4: '/assets/img/project/yashprofile/8laptop.png',
+        category: 'Web Design',
+  industry: 'Entertainment',
+  title: 'Yash Reddy Portfolio Website',
+  client: 'Yash Reddy',
+  aboutProject: [
+    {
+      title: 'Project Objectives',
+      content: 'The main objectives for this project were to design and develop a professional portfolio website for Yash Reddy, an aspiring actor. The website needed to showcase his acting portfolio, display his headshots, provide his bio and contact information, and engage industry professionals.'
+    },
+    {
+      title: 'Key Features',
+      content: 'The website features a clean and visually appealing design, with sections dedicated to Yash Reddy’s acting work, including videos, photos, and reviews. It includes a biography page to introduce Yash to visitors and contact information for industry professionals. The site is designed to leave a lasting impression on casting directors and agents.'
+    },
+    {
+      title: 'Technologies Used',
+      content: 'The Yash Reddy Portfolio website is built on the WordPress platform, which provides flexibility for content management. Custom themes and plugins were used to create a unique design and enhance functionality. HTML, CSS, and JavaScript were employed for front-end development.'
+    },
+    {
+      title: 'Project Results',
+      content: 'The portfolio website has effectively showcased Yash Reddy’s acting talent and professionalism. It has provided a platform for him to reach out to industry professionals, casting directors, and agents. The website has garnered attention and interest, helping Yash Reddy in his acting career.'
+    }
+  ]
+},
 
-      // portfolio six
-      // WEB DESIGN
-      {
-        id:20,
-        img:'assets/img/creative/creative-item-2.jpg',
-        category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:21,
-        img:'assets/img/creative/creative-item-sm-1.jpg',
-        category:'BRANDING DESIGN',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:22,
-        img:'assets/img/creative/creative-item-4.jpg',
-        category:'WEB DESIGN',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:23,
-        img:'assets/img/creative/creative-item-7.jpg',
-        category:'WEB DESIGN',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:24,
-        img:'assets/img/creative/creative-item-sm-2.jpg',
-        category:'WEB DESIGN',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:25,
-        img:'assets/img/creative/creative-item-sm-3.jpg',
-        category:'WEB DESIGN',
-        title:'Minimal Cup Branding Project'
-      },
-      
-     // BRANDING DESIGN
-      {
-        id:26,
-        img:'assets/img/creative/creative-item-sm-1.jpg',
-        category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:27,
-        img:'assets/img/creative/creative-item-4.jpg',
-        category:'BRANDING DESIGN',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:28,
-        img:'assets/img/creative/creative-item-7.jpg',
-        category:'BRANDING DESIGN',
-        title:'Shouse Branding & Design'
-      },
-      {
-        id:29,
-        img:'assets/img/creative/creative-item-8.jpg',
-        category:'BRANDING DESIGN',
-        title:'Ecommerce Product Listing'
-      },
-      {
-        id:30,
-        img:'assets/img/creative/creative-item-big-2.jpg',
-        category:'BRANDING DESIGN',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:31,
-        img:'assets/img/creative/creative-item-sm-2.jpg',
-        category:'BRANDING DESIGN',
-        title:'Professional Gaming Desk'
-      },
-    // MOTION DESIGN
-      {
-        id:32,
-        img:'assets/img/creative/creative-item-sm-4.jpg',
-        category:'MOTION DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:33,
-        img:'assets/img/creative/creative-item-3.jpg',
-        category:'MOTION DESIGN',
-        title:'Ecommerce Popular Product'
-      },
-      {
-        id:34,
-        img:'assets/img/creative/creative-item-5.jpg',
-        category:'MOTION DESIGN',
-        title:'Shows Branding Product'
-      },
-      {
-        id:35,
-        img:'assets/img/creative/creative-item-7.jpg',
-        category:'MOTION DESIGN',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:36,
-        img:'assets/img/creative/creative-item-sm-3.jpg',
-        category:'MOTION DESIGN',
-        title:'Unique Product Listings'
-      },
-     // PRINT DESIGN
-      {
-        id:37,
-        img:'assets/img/creative/creative-item-sm-1.jpg',
-        category:'PRINT DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:38,
-        img:'assets/img/creative/creative-item-3.jpg',
-        category:'PRINT DESIGN',
-        title:'Ecommerce Popular Product'
-      },
-      {
-        id:39,
-        img:'assets/img/creative/creative-item-6.jpg',
-        category:'PRINT DESIGN',
-        title:'Shouse Branding & Design'
-      },
-      {
-        id:40,
-        img:'assets/img/creative/creative-item-sm-2.jpg',
-        category:'PRINT DESIGN',
-        title:'Professional Gaming Desk'
-      },
-      {
-        id:41,
-        img:'assets/img/creative/creative-item-sm-3.jpg',
-        category:'PRINT DESIGN',
-        title:'Unique Product Listings'
-      },
-     // 3D DESIGN
-      {
-        id:42,
-        img:'assets/img/creative/creative-item-big-1.jpg',
-        category:'3D DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:43,
-        img:'assets/img/creative/creative-item-sm-1.jpg',
-        category:'3D DESIGN',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:44,
-        img:'assets/img/creative/creative-item-sm-2.jpg',
-        category:'3D DESIGN',
-        title:'Minimal Product Showcase'
-      },
-      // product design
-      {
-        id:45,
-        img:'assets/img/creative/creative-item-4.jpg',
-        category:'PRODUCT DESIGN',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:46,
-        img:'assets/img/creative/creative-item-sm-1.jpg',
-        category:'PRODUCT DESIGN',
-        title:'Minimal Product Showcase'
-      },
-
-
-      // portfolio seven data
-      {
-        id:47,
-        img:'assets/img/creative/grid/tp-creative-1.jpg',
-        category:'WEB DESIGN',
-        title:'Unique Trendy Baranding',
-      },
-      {
-        id:48,
-        img:'assets/img/creative/grid/tp-creative-2.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Minimal Leaf Project',
-      },
-      {
-        id:49,
-        img:'assets/img/creative/grid/tp-creative-3.jpg',
-        category:'APPS',
-        title:'3D Illustration Edit',
-      },
-      {
-        id:50,
-        img:'assets/img/creative/grid/tp-creative-4.jpg',
-        category:'LANDING PAGE',
-        title:'Minimal Cup Branding Project',
-      },
-      {
-        id:51,
-        img:'assets/img/creative/grid/tp-creative-5.jpg',
-        category:'BRANDING DESIGN',
-        title:'Ecommerce Product Landing',
-      },
-      {
-        id:52,
-        img:'assets/img/creative/grid/tp-creative-6.jpg',
-        category:'3D DESIGN',
-        title:'Shouse Branding & Design',
-      },
-      {
-        id:53,
-        img:'assets/img/creative/grid/tp-creative-3.jpg',
-        category:'WEB DESIGN',
-        title:'3D Illustration Edit',
-      },
-      {
-        id:54,
-        img:'assets/img/creative/grid/tp-creative-5.jpg',
-        category:'WEB DESIGN',
-        title:'Ecommerce Product Landing',
-      },
-      {
-        id:55,
-        img:'assets/img/creative/grid/tp-creative-10.jpg',
-        category:'WEB DESIGN',
-        title:'Ecommerce Popular Product',
-      },
-      {
-        id:56,
-        img:'assets/img/creative/grid/tp-creative-6.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Shouse Branding & Design',
-      },
-      {
-        id:57,
-        img:'assets/img/creative/grid/tp-creative-9.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Unique Trendy Baranding',
-      },
-      {
-        id:58,
-        img:'assets/img/creative/grid/tp-creative-12.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Unique Product Listings',
-      },
-      {
-        id:59,
-        img:'assets/img/creative/grid/tp-creative-7.jpg',
-        category:'APPS',
-        title:'Shouse Branding & Design',
-      },
-      {
-        id:60,
-        img:'assets/img/creative/grid/tp-creative-8.jpg',
-        category:'APPS',
-        title:'Shouse Branding & Design',
-      },
-      {
-        id:61,
-        img:'assets/img/creative/grid/tp-creative-12.jpg',
-        category:'APPS',
-        title:'Unique Product Listings',
-      },
-      {
-        id:62,
-        img:'assets/img/creative/grid/tp-creative-11.jpg',
-        category:'APPS',
-        title:'Shows Branding Product',
-      },
-      {
-        id:63,
-        img:'assets/img/creative/grid/tp-creative-8.jpg',
-        category:'LANDING PAGE',
-        title:'Professional Gaming Desk',
-      },
-      {
-        id:64,
-        img:'assets/img/creative/grid/tp-creative-9.jpg',
-        category:'LANDING PAGE',
-        title:'Professional Gaming Desk',
-      },
-      {
-        id:65,
-        img:'assets/img/creative/grid/tp-creative-11.jpg',
-        category:'LANDING PAGE',
-        title:'Shows Branding Product',
-      },
-   
-      {
-        id:66,
-        img:'assets/img/creative/grid/tp-creative-10.jpg',
-        category:'BRANDING DESIGN',
-        title:'Ecommerce Popular Product',
-      },
-      {
-        id:67,
-        img:'assets/img/creative/grid/tp-creative-7.jpg',
-        category:'BRANDING DESIGN',
-        title:'Shouse Branding & Design',
-      },
-      {
-        id:68,
-        img:'assets/img/creative/grid/tp-creative-8.jpg',
-        category:'3D DESIGN',
-        title:'Professional Gaming Desk',
-      },
-      {
-        id:69,
-        img:'assets/img/creative/grid/tp-creative-7.jpg',
-        category:'3D DESIGN',
-        title:'Shouse Branding & Design',
-      },
-
-
-      // portfolio eight data 
-      {
-        id:70,
-        img:'assets/img/creative/box/tp-creative-1.jpg',
-        category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:71,
-        img:'assets/img/creative/box/tp-creative-2.jpg',
-        category:'WEBSITE DESIGN',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:72,
-        img:'assets/img/creative/box/tp-creative-3.jpg',
-        category:'APPS',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:73,
-        img:'assets/img/creative/box/tp-creative-4.jpg',
-        category:'LANDING PAGE',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:74,
-        img:'assets/img/creative/box/tp-creative-7.jpg',
-        category:'BRANDING DESIGN',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:75,
-        img:'assets/img/creative/box/tp-creative-5.jpg',
-        category:'3D DESIGN',
-        title:'Shouse Branding & Design'
-      },
-
-      {
-        id:76,
-        img:'assets/img/creative/box/tp-creative-3.jpg',
-        category:'WEB DESIGN',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:77,
-        img:'assets/img/creative/box/tp-creative-6.jpg',
-        category:'WEB DESIGN',
-        title:'Ecommerce Product Listing'
-      },
-      {
-        id:78,
-        img:'assets/img/creative/box/tp-creative-11.jpg',
-        category:'WEB DESIGN',
-        title:'Ecommerce Popular Product'
-      },
-
-      {
-        id:79,
-        img:'assets/img/creative/box/tp-creative-4.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:80,
-        img:'assets/img/creative/box/tp-creative-9.jpg',
-        category:'WEBSITE DESIGN',
-        title:'Unique Trendy Baranding'
-      },
-
-      {
-        id:81,
-        img:'assets/img/creative/box/tp-creative-7.jpg',
-        category:'APPS',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:82,
-        img:'assets/img/creative/box/tp-creative-4.jpg',
-        category:'APPS',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:83,
-        img:'assets/img/creative/box/tp-creative-5.jpg',
-        category:'APPS',
-        title:'Shouse Branding & Design'
-      },
-      {
-        id:84,
-        img:'assets/img/creative/box/tp-creative-10.jpg',
-        category:'APPS',
-        title:'Shows Branding Product'
-      },
-
-      {
-        id:85,
-        img:'assets/img/creative/box/tp-creative-7.jpg',
-        category:'LANDING PAGE',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:86,
-        img:'assets/img/creative/box/tp-creative-8.jpg',
-        category:'LANDING PAGE',
-        title:'Professional Gaming Desk'
-      },
-
-      {
-        id:87,
-        img:'assets/img/creative/box/tp-creative-11.jpg',
-        category:'BRANDING DESIGN',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:88,
-        img:'assets/img/creative/box/tp-creative-3.jpg',
-        category:'BRANDING DESIGN',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:89,
-        img:'assets/img/creative/box/tp-creative-6.jpg',
-        category:'BRANDING DESIGN',
-        title:'Ecommerce Product Listing'
-      },
-
-      {
-        id:90,
-        img:'assets/img/creative/box/tp-creative-12.jpg',
-        category:'3D DESIGN',
-        title:'Unique Product Listings'
-      },
-      {
-        id:91,
-        img:'assets/img/creative/box/tp-creative-3.jpg',
-        category:'3D DESIGN',
-        title:'Minimal Leaf Project'
-      },
-
-      // home nine portfolio 
-      {
-        id:92,
-        img:'assets/img/wedding/wedding-1.jpg',
-        category:'WEDDING',
-        title:'Wedding Couple of HIlls'
-      },
-      {
-        id:93,
-        img:'assets/img/wedding/wedding-2.jpg',
-        category:'BIRTHDAY PARTY',
-        title:'Tom & Elizabeth'
-      },
-      {
-        id:94,
-        img:'assets/img/wedding/wedding-3.jpg',
-        category:'EVENTS',
-        title:'Gloria & Vincent'
-      },
-      {
-        id:95,
-        img:'assets/img/wedding/wedding-4.jpg',
-        category:'PRINT DESIGN',
-        title:'Patricia & Dennis'
-      },
-      {
-        id:96,
-        img:'assets/img/wedding/wedding-5.jpg',
-        category:'3D DESIGN',
-        title:'Larry & Ashley'
-      },
-      {
-        id:97,
-        img:'assets/img/wedding/wedding-6.jpg',
-        category:'PRODUCT DESIGN',
-        title:'Ruth & Albert'
-      },
-      {
-        id:98,
-        img:'assets/img/wedding/wedding-8.jpg',
-        category:'WEDDING',
-        title:'Ethan & Marie'
-      },
-      {
-        id:99,
-        img:'assets/img/wedding/wedding-7.jpg',
-        category:'BIRTHDAY PARTY',
-        title:'Carl & Christine'
-      },
-      {
-        id:100,
-        img:'assets/img/wedding/wedding-6.jpg',
-        category:'EVENTS',
-        title:'Ruth & Albert'
-      },
-      {
-        id:101,
-        img:'assets/img/wedding/wedding-5.jpg',
-        category:'PRINT DESIGN',
-        title:'Larry & Ashley'
-      },
-      {
-        id:102,
-        img:'assets/img/wedding/wedding-8.jpg',
-        category:'3D DESIGN',
-        title:'Ethan & Marie'
-      },
-      {
-        id:103,
-        img:'assets/img/wedding/wedding-1.jpg',
-        category:'PRODUCT DESIGN',
-        title:'Wedding Couple of HIlls'
-      },
-
-      // portfolio ten
-      {
-        id:104,
-        img:'assets/img/photoshort/photoshot-1.jpg',
-        category:'TRAVEL',
-        title:'Unique Trendy Baranding'
-      },
-      {
-        id:105,
-        img:'assets/img/photoshort/photoshot-2.jpg',
-        category:'PRODUCT',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:106,
-        img:'assets/img/photoshort/photoshot-3.jpg',
-        category:'BRANDING',
-        title:'Minimal Leaf Project'
-      },
-      {
-        id:107,
-        img:'assets/img/photoshort/photoshot-4.jpg',
-        category:'MINIMAL',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:108,
-        img:'assets/img/photoshort/photoshot-5.jpg',
-        category:'ADVENTURE',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:109,
-        img:'assets/img/photoshort/photoshot-6.jpg',
-        category:'WEDDING',
-        title:'Wedding Couple of HIlls'
-      },
-      {
-        id:110,
-        img:'assets/img/photoshort/photoshot-7.jpg',
-        category:'EVENTS',
-        title:'Tom & Elizabeth'
-      },
-      {
-        id:111,
-        img:'assets/img/photoshort/photoshot-5.jpg',
-        category:'TRAVEL',
-        title:'Ecommerce Product Landing'
-      },
-      {
-        id:112,
-        img:'assets/img/photoshort/photoshot-9.jpg',
-        category:'TRAVEL',
-        title:'Ecommerce Product Listing'
-      },
-      {
-        id:113,
-        img:'assets/img/photoshort/photoshot-4.jpg',
-        category:'PRODUCT',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:114,
-        img:'assets/img/photoshort/photoshot-8.jpg',
-        category:'PRODUCT',
-        title:'Professional Gaming Desk'
-      },
-      {
-        id:115,
-        img:'assets/img/photoshort/photoshot-2.jpg',
-        category:'BRANDING',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:116,
-        img:'assets/img/photoshort/photoshot-4.jpg',
-        category:'BRANDING',
-        title:'Minimal Cup Branding Project'
-      },
-      {
-        id:117,
-        img:'assets/img/photoshort/photoshot-6.jpg',
-        category:'MINIMAL',
-        title:'Wedding Couple of HIlls'
-      },
-      {
-        id:118,
-        img:'assets/img/photoshort/photoshot-8.jpg',
-        category:'MINIMAL',
-        title:'Professional Gaming Desk'
-      },
-      {
-        id:119,
-        img:'assets/img/photoshort/photoshot-7.jpg',
-        category:'ADVENTURE',
-        title:'Tom & Elizabeth'
-      },
-      {
-        id:120,
-        img:'assets/img/photoshort/photoshot-8.jpg',
-        category:'ADVENTURE',
-        title:'Professional Gaming Desk'
-      },
-      {
-        id:121,
-        img:'assets/img/photoshort/photoshot-7.jpg',
-        category:'WEDDING',
-        title:'Tom & Elizabeth'
-      },
-      {
-        id:122,
-        img:'assets/img/photoshort/photoshot-2.jpg',
-        category:'WEDDING',
-        title:'3D Illustration Edit'
-      },
-      {
-        id:123,
-        img:'assets/img/photoshort/photoshot-6.jpg',
-        category:'EVENTS',
-        title:'Wedding Couple of HIlls'
-      },
-
-      // portfolio eleven data 
-      {
-        id:124,
-        img:'assets/img/photoshort/2/photoshot-1.jpg',
-        category:'FASHION',
-        title:'Model & Fashion Photography'
-      },
-      {
-        id:125,
-        img:'assets/img/photoshort/2/photoshot-2.jpg',
-        category:'MODEL',
-        title:'Tom Fashion Photography'
-      },
-      {
-        id:126,
-        img:'assets/img/photoshort/2/photoshot-3.jpg',
-        category:'EVENT',
-        title:'Quisue sen duru martin'
-      },
-      {
-        id:127,
-        img:'assets/img/photoshort/2/photoshot-4.jpg',
-        category:'WEDDING TOUCH',
-        title:'Elizabeth Model Photography'
-      },
-      {
-        id:128,
-        img:'assets/img/photoshort/2/photoshot-5.jpg',
-        category:'WEDDING TOUCH',
-        title:'Marie Model Photography'
-      },
-      {
-        id:129,
-        img:'assets/img/photoshort/2/photoshot-6.jpg',
-        category:'WEDDING TOUCH',
-        title:'Smith Model Photography'
-      },
-
-      // portfolio twelve data
-      {
-        id:130,
-        img:'assets/img/furniture/furniture-1.jpg',
-        category:'FURNITURE',
-        title:'Mordern Photoshot for Furniture'
-      },
-      {
-        id:131,
-        img:'assets/img/furniture/furniture-2.jpg',
-        category:'FURNITURE',
-        title:'Minimal Office Sofa Branding'
-      },
-      {
-        id:132,
-        img:'assets/img/furniture/furniture-3.jpg',
-        category:'FURNITURE',
-        title:'Yellow Sofa set for Personal Office'
-      },
-      {
-        id:133,
-        img:'assets/img/furniture/furniture-4.jpg',
-        category:'FURNITURE',
-        title:'Minimal Product Showcase'
-      },
-      {
-        id:134,
-        img:'assets/img/furniture/furniture-5.jpg',
-        category:'FURNITURE',
-        title:'Mordern Photoshot for Furniture'
-      },
-
-      // portfolio thirteen data
-      {
-        id:135,
-        img:'assets/img/project/5/project-img-1.jpg',
-        col:'8',
-        title:'School & College'
-      },
-      {
-        id:136,
-        img:'assets/img/project/5/project-img-2.jpg',
-        col:'8',
-        title:'City Traffic & Parking'
-      },
-      {
-        id:137,
-        img:'assets/img/project/5/project-img-3.jpg',
-        col:'8',
-        title:'Parks & Recreation'
-      },
-      {
-        id:138,
-        img:'assets/img/project/5/project-img-4.jpg',
-        col:'8',
-        title:'Sports & Fitness'
-      },
-      {
-        id:139,
-        img:'assets/img/project/5/project-img-5.jpg',
-        col:'4',
-        title:'Nursing & Hospitality'
-      },
-      //webtechnologies
-      {
-        id:140,
-        img:'assets/img/tech/react.png',
-        category:'Full Stack',
-        col:'2',
-        title:'Tech'
-      },
-      {
-        id:141,
-        img:'assets/img/tech/angular.png',
-        category:'Frontend',
-        col:'2',
-        title:'Tech'
-      },
-      {
-        id:142,
-        img:'assets/img/tech/php.png',
-        category:'Backend',
-        col:'2',
-        title:'Tech'
-      },
-      {
-        id:143,
-        img:'assets/img/tech/docker.png',
-        category:'Frontend',
-        col:'2',
-        title:'Tech'
-      },
 ]
 
 export default portfolioData;

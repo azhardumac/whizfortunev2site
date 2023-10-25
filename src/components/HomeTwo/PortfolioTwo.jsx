@@ -17,7 +17,7 @@ const PortfolioTwo = () => {
           </div>
           <div className="row mt-60">
             {
-              portfolioData.slice(0, 6).map(item => {
+              portfolioData.slice(2, 8).map(item => {
                 return (
                   <div key={item.id} className="col-xl-4 col-lg-6 col-md-6">
                     <div className="tpproject-2 tpproject-3 mb-30">
