@@ -11,7 +11,7 @@ const PortfolioTwo = () => {
             <div className="col-xl-12">
               <div className="tp-section-title text-center">
                 <span className="tp-sub-title-2 mb-15">WORK GALLERY</span>
-                <h2 className="tp-title">Recent Case Studies</h2>
+                <h2 className="tp-title">Projects We Love</h2>
               </div>
             </div>
           </div>
@@ -24,7 +24,7 @@ const PortfolioTwo = () => {
 
                       <div className="tpproject-2-thumbnail" style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                       <div className="tpproject-2-text">
-                        <span className="catagory mb-10">#WEB DESIGN</span>
+                        <span className="catagory mb-10">{item.industry}</span>
                         <h5 className="tpproject-2-title">
                           <Link href={`/portfolio-details/${item.id}`}>
                             <a>{item.title}</a>

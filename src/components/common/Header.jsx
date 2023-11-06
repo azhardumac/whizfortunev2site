@@ -63,6 +63,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         </li>
                         <li className="has-dropdown megamenu-full">
                         <Link href="/services"><a >Our Services</a></Link>
+                        
                           <ul className="megamenu">
                             {/* FIXME: */}
                             <li>
@@ -70,25 +71,16 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
 
                               <ul>
                                 <li>Leveraging cutting-edge technologies to build industry-leading digital products</li>
-                                
-                                {/* <li><Link href="/about-me">About Me</Link></li>
-                                <li><Link href="/contact">Contact</Link></li>
-                                <li><Link href="/faq">FAQ</Link></li>
-                                <li><Link href="/help-center">Help Center</Link></li>
-                                <li><Link href="/error-page">Error 404</Link></li>
-                                <li><Link href="/pricing-plan">Pricing Plan</Link></li>
-                                <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                                <li><Link href="/coming-soon">Coming Soon</Link></li> */}
                               </ul>
                             </li>
                             <li>
-                              <a href="#" className="megamenu-title">Development</a>
+                              <a href="#" className="megamenu-title">Web Development</a>
 
                               <ul>
-                                <li><Link href="/portfolio">Portfolio</Link></li>
-                                <li><Link href="/portfolio-two">Portfolio 2</Link></li>
-                                <li><Link href="/portfolio-three">Portfolio 3</Link></li>
-                                <li><Link href="/portfolio-four">Portfolio 4</Link></li>
+                                <li><Link href="/portfolio">Ecommerce Development</Link></li>
+                                <li><Link href="/portfolio-two">Portfolio Development</Link></li>
+                                <li><Link href="/portfolio-three">Industrial Development</Link></li>
+                                <li><Link href="/portfolio-four">Appointment Development</Link></li>
                                 <li><Link href="/portfolio-five">Portfolio 5</Link></li>
                                 <li><Link href="/portfolio-six">Portfolio 6</Link></li>
                                 <li><Link href="/portfolio-details">Portfolio Details</Link></li>

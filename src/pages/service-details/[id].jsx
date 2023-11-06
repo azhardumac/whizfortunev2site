@@ -272,4 +272,4 @@ const ServiceDetails = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(ServiceDetails), { ssr: false });
+export default dynamic(() => Promise.resolve(ServiceDetails), { ssr: true });
