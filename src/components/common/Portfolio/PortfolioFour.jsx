@@ -73,7 +73,7 @@ const PortfolioFour = ({ padd }) => {
           <div className="row mt-4">
             <div className="col-xl-12 text-center">
               <div className="cta-banner">
-                <p>If you're impressed, get in touch with us today.</p>
+                <p>If you&apose;re impressed, get in touch with us today.</p>
                 <Link href="/contact">
                   <a className="tp-solid-btn">Get in Touch</a>
                 </Link>
